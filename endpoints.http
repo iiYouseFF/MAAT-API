@@ -8,7 +8,12 @@
 @stationId = 44444444-4444-4444-4444-444444444444
 @userId = 44444444-4444-4444-4444-444444444444
 
-### 1. Auth Endpoints
+### 0. Infrastructure Endpoints
+
+# @name healthCheck
+GET http://localhost:3000/health
+
+###
 
 # @name register
 POST {{baseUrl}}/auth/register
