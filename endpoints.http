@@ -1,0 +1,179 @@
+
+// all of these data are for example only, you can change them as you want except the base url
+@baseUrl = http://localhost:3000/api/v1
+@scannerApiKey = dev_khiorw03i23j4
+@authToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFhZ2Fwc250a290d2F5Z290aGciLCJyb2xlIjoiYW5vbiIsImlhdCI6MTc1NTQzNzU0MSwiZXhwIjoyMDcxMDEzNTQxfQ.Y4-1Wv1-x0261i205769364200000000000000000
+@nationalId = 123456789
+@cardUid = NFC_CARD_123
+@stationId = 44444444-4444-4444-4444-444444444444
+@userId = 44444444-4444-4444-4444-444444444444
+
+### 1. Auth Endpoints
+
+# @name register
+POST {{baseUrl}}/auth/register
+Content-Type: application/json
+
+  {
+    "national_id": "123456789",
+    "full_name": "John Doe",
+    "phoneNumber": "+1234567890",
+    "gender": "male",
+    "email": "amryosef360@gmail.com",
+    "cardId": "NFC_CARD_123"
+  }
+
+###
+
+# @name login
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "national_id": "123456789"
+}
+
+###
+
+# @name verifyOTP
+# Returns { message, user, token }
+POST {{baseUrl}}/auth/verify
+Content-Type: application/json
+
+{
+  "national_id": "123456789",
+  "otp": "123456"
+}
+
+###
+
+# @name getMe
+GET {{baseUrl}}/auth/me
+Authorization: Bearer {{authToken}}
+
+###
+
+### 2. User Endpoints
+
+# @name getProfile
+GET {{baseUrl}}/users/NID/{{nationalId}}
+Authorization: Bearer {{authToken}}
+
+###
+
+# @name updateProfile
+PUT {{baseUrl}}/users/NID/{{nationalId}}
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
+
+{
+  "full_name": "John Updated",
+  "phoneNumber": "+0987654321",
+  "gender": "male",
+  "email": "updated@example.com"
+}
+
+# @name getUserById
+GET {{baseUrl}}/users/ID/{{userId}}
+Authorization: Bearer {{authToken}}
+
+###
+
+# @name getBalance
+GET {{baseUrl}}/users/ID/{{userId}}/balance
+Authorization: Bearer {{authToken}}
+
+###
+
+# @name addBalance
+POST {{baseUrl}}/users/ID/{{userId}}/add-balance
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
+
+{
+  "amount": 50.0
+}
+
+### 3. NFC Endpoints
+
+# @name getCard
+GET {{baseUrl}}/nfc/{{cardUid}}
+
+###
+
+# @name getUserCards
+GET {{baseUrl}}/nfc/user/{{userId}}
+
+### 4. Station Endpoints
+
+# @name getAllStations
+GET {{baseUrl}}/stations
+
+###
+
+# @name createStation
+POST {{baseUrl}}/stations
+Content-Type: application/json
+
+{
+  "code": "STN01",
+  "name": "Central Station",
+  "zone": 1,
+  "base_fare": 5.0,
+  "is_active": true
+}
+
+### 5. Scanner & Trip Endpoints (Hardware Simulation)
+
+# @name registerScanner
+POST {{baseUrl}}/scanners/register
+Content-Type: application/json
+
+{
+  "station_id": "{{stationId}}",
+  "type": "entry"
+}
+
+###
+
+# @name genericScan
+# This handles Entry, Exit, or Registration depending on scanner type
+POST {{baseUrl}}/scanners/scan
+Content-Type: application/json
+
+{
+  "api_key": "{{scannerApiKey}}",
+  "card_id": "{{cardUid}}",
+  "station_id": "{{stationId}}"
+}
+
+###
+
+# @name tripHistory
+GET {{baseUrl}}/trips/history/{{cardUid}}
+
+### 6. Admin Dashboard Endpoints
+
+# @name getStats
+GET {{baseUrl}}/admin/stats
+
+###
+
+# @name getRecentTrips
+# Supports pagination: ?page=1&limit=20
+GET {{baseUrl}}/admin/trips/recent?page=1&limit=5
+
+###
+
+# @name getActiveTrips
+GET {{baseUrl}}/admin/trips/active?page=1&limit=5
+
+###
+
+# @name getScanners
+GET {{baseUrl}}/admin/scanners?page=1&limit=10
+
+###
+
+# @name getUsers
+GET {{baseUrl}}/admin/users?page=1&limit=10
