@@ -1,5 +1,4 @@
 import supabase from "../../config/supabase.js";
-import bcrypt from "bcryptjs";
 
 const getPagination = (page, limit) => {
     const from = (page - 1) * limit;
@@ -31,18 +30,13 @@ export async function GetDashboardStats() {
 
 // ========== USER MANAGEMENT ==========
 
-export async function CreateUser({ national_id, full_name, email, phone, password, gender, card_uid }) {
-    // Hash password
-    const salt = await bcrypt.genSalt(10);
-    const hashed = await bcrypt.hash(password, salt);
-
+export async function CreateUser({ national_id, full_name, email, phone, gender, card_uid }) {
     // Create user
     const { data: user, error } = await supabase.from("users").insert({
         national_id,
         full_name,
         email,
         phone,
-        password: hashed,
         gender: gender || null,
         balance: 0,
         role: "user"

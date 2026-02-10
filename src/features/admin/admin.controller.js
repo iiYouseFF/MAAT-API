@@ -90,13 +90,13 @@ export async function getAllScanners(req, res) {
 
 export async function createUser(req, res) {
     try {
-        const { national_id, full_name, email, phone, password, gender, card_uid } = req.body;
+        const { national_id, full_name, email, phone, gender, card_uid } = req.body;
 
-        if (!national_id || !full_name || !password) {
-            return res.status(400).json({ error: "national_id, full_name, and password are required" });
+        if (!national_id || !full_name) {
+            return res.status(400).json({ error: "national_id and full_name are required" });
         }
 
-        const user = await AdminService.CreateUser({ national_id, full_name, email, phone, password, gender, card_uid });
+        const user = await AdminService.CreateUser({ national_id, full_name, email, phone, gender, card_uid });
         res.status(201).json({ message: "User created successfully", user });
     } catch (error) {
         res.status(500).json({ error: error.message });
