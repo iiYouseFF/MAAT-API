@@ -1,0 +1,5930 @@
+[
+  {
+    "id": 100,
+    "name_ar": "السد العالي",
+    "name_en": "ElSad ElAly",
+    "latitude": "41907295",
+    "longitude": "98031834",
+    "is_active": true
+  },
+  {
+    "id": 200,
+    "name_ar": "الصداقه",
+    "name_en": "ElSadaqa",
+    "latitude": "97402150",
+    "longitude": "50009610",
+    "is_active": true
+  },
+  {
+    "id": 300,
+    "name_ar": "كيما",
+    "name_en": "Keema",
+    "latitude": "07709985",
+    "longitude": "96092075",
+    "is_active": true
+  },
+  {
+    "id": 400,
+    "name_ar": "الشيخ هارون",
+    "name_en": "ElShikh Haroon",
+    "latitude": "42108305",
+    "longitude": "99080076",
+    "is_active": true
+  },
+  {
+    "id": 500,
+    "name_ar": "اسوان",
+    "name_en": "Aswan",
+    "latitude": "92709808",
+    "longitude": "94086732",
+    "is_active": true
+  },
+  {
+    "id": 600,
+    "name_ar": "ابو الريش قبلي",
+    "name_en": "Abo ElReesh Qibli",
+    "latitude": "67306748",
+    "longitude": "55063715",
+    "is_active": true
+  },
+  {
+    "id": 700,
+    "name_ar": "الشديده",
+    "name_en": "Alshadida",
+    "latitude": "67001387",
+    "longitude": "80043877",
+    "is_active": true
+  },
+  {
+    "id": 800,
+    "name_ar": "الخطاره",
+    "name_en": "ElKhatara",
+    "latitude": "62307411",
+    "longitude": "80022872",
+    "is_active": true
+  },
+  {
+    "id": 900,
+    "name_ar": "الاعقاب قبلي",
+    "name_en": "ElAakab Qibli",
+    "latitude": "52100125",
+    "longitude": "02050041",
+    "is_active": true
+  },
+  {
+    "id": 1000,
+    "name_ar": "الاعقاب",
+    "name_en": "ElAakab",
+    "latitude": "52206224",
+    "longitude": "98017931",
+    "is_active": true
+  },
+  {
+    "id": 1100,
+    "name_ar": "الجعافره",
+    "name_en": "ElGaafara",
+    "latitude": "67605122",
+    "longitude": "51059612",
+    "is_active": true
+  },
+  {
+    "id": 1200,
+    "name_ar": "الرتاج",
+    "name_en": "ElRetag",
+    "latitude": "27301068",
+    "longitude": "90003179",
+    "is_active": true
+  },
+  {
+    "id": 1300,
+    "name_ar": "بلانه",
+    "name_en": "Blana",
+    "latitude": "62706139",
+    "longitude": "95061278",
+    "is_active": true
+  },
+  {
+    "id": 1400,
+    "name_ar": "السلام النوبيه",
+    "name_en": "ElSalam Elnobia",
+    "latitude": "92108736",
+    "longitude": "95027536",
+    "is_active": true
+  },
+  {
+    "id": 1500,
+    "name_ar": "دراو",
+    "name_en": "Daraw",
+    "latitude": "47607119",
+    "longitude": "50025517",
+    "is_active": true
+  },
+  {
+    "id": 1600,
+    "name_ar": "الشطب البلد",
+    "name_en": "Shatb ElBalad",
+    "latitude": "37101451",
+    "longitude": "98069377",
+    "is_active": true
+  },
+  {
+    "id": 1700,
+    "name_ar": "كوم امبو",
+    "name_en": "Kom Umbu",
+    "latitude": "62107449",
+    "longitude": "95073470",
+    "is_active": true
+  },
+  {
+    "id": 1800,
+    "name_ar": "الرغامه",
+    "name_en": "ElRaghamah",
+    "latitude": "92202352",
+    "longitude": "91019336",
+    "is_active": true
+  },
+  {
+    "id": 1900,
+    "name_ar": "جبل السلسله",
+    "name_en": "Gabl ElSilsila",
+    "latitude": "26409399",
+    "longitude": "54090218",
+    "is_active": true
+  },
+  {
+    "id": 2000,
+    "name_ar": "كلابشه",
+    "name_en": "Klabsha",
+    "latitude": "46205598",
+    "longitude": "53005313",
+    "is_active": true
+  },
+  {
+    "id": 2100,
+    "name_ar": "كاجوج",
+    "name_en": "Kagoog",
+    "latitude": "77708128",
+    "longitude": "97086373",
+    "is_active": true
+  },
+  {
+    "id": 2200,
+    "name_ar": "السيد سعيد",
+    "name_en": "ElSayed Saeed",
+    "latitude": "42300972",
+    "longitude": "93016479",
+    "is_active": true
+  },
+  {
+    "id": 2300,
+    "name_ar": "سلوا",
+    "name_en": "Selwa",
+    "latitude": "42303479",
+    "longitude": "90028434",
+    "is_active": true
+  },
+  {
+    "id": 2400,
+    "name_ar": "جعفر الصادق",
+    "name_en": "Gaafar ElSadeq",
+    "latitude": "76308975",
+    "longitude": "52056513",
+    "is_active": true
+  },
+  {
+    "id": 2500,
+    "name_ar": "الرمادي",
+    "name_en": "ElRamadi",
+    "latitude": "27304619",
+    "longitude": "92027074",
+    "is_active": true
+  },
+  {
+    "id": 2600,
+    "name_ar": "السراج",
+    "name_en": "ElSeraj",
+    "latitude": "62705180",
+    "longitude": "88014973",
+    "is_active": true
+  },
+  {
+    "id": 2700,
+    "name_ar": "الطوناب",
+    "name_en": "ElTonab",
+    "latitude": "72306783",
+    "longitude": "90098830",
+    "is_active": true
+  },
+  {
+    "id": 2800,
+    "name_ar": "الرديسيه",
+    "name_en": "ElRodysia",
+    "latitude": "66707063",
+    "longitude": "64002012",
+    "is_active": true
+  },
+  {
+    "id": 2900,
+    "name_ar": "الفوزه",
+    "name_en": "ElFooza",
+    "latitude": "27402305",
+    "longitude": "89002778",
+    "is_active": true
+  },
+  {
+    "id": 3000,
+    "name_ar": "ادفو",
+    "name_en": "Edfu",
+    "latitude": "86606799",
+    "longitude": "84001876",
+    "is_active": true
+  },
+  {
+    "id": 3100,
+    "name_ar": "العطواني",
+    "name_en": "ElAtwani",
+    "latitude": "73501601",
+    "longitude": "89038878",
+    "is_active": true
+  },
+  {
+    "id": 3200,
+    "name_ar": "الدوماريه",
+    "name_en": "ElDomaria",
+    "latitude": "83404107",
+    "longitude": "04012044",
+    "is_active": true
+  },
+  {
+    "id": 3300,
+    "name_ar": "الكلح",
+    "name_en": "ElKelh",
+    "latitude": "86008140",
+    "longitude": "62091311",
+    "is_active": true
+  },
+  {
+    "id": 3400,
+    "name_ar": "الفوسفات الجديده",
+    "name_en": "ElFosfat ElGadida",
+    "latitude": "26004189",
+    "longitude": "81026073",
+    "is_active": true
+  },
+  {
+    "id": 3500,
+    "name_ar": "المحاميد",
+    "name_en": "ElMahameed",
+    "latitude": "43203911",
+    "longitude": "78086770",
+    "is_active": true
+  },
+  {
+    "id": 3600,
+    "name_ar": "الخوي الجديده",
+    "name_en": "ElKhowee ElGadida",
+    "latitude": "43206816",
+    "longitude": "15032449",
+    "is_active": true
+  },
+  {
+    "id": 3700,
+    "name_ar": "السباعيه",
+    "name_en": "ElSebaia",
+    "latitude": "16408332",
+    "longitude": "71091713",
+    "is_active": true
+  },
+  {
+    "id": 3800,
+    "name_ar": "الشراونه",
+    "name_en": "ElSharawna",
+    "latitude": "76903277",
+    "longitude": "65027672",
+    "is_active": true
+  },
+  {
+    "id": 3900,
+    "name_ar": "جزيره راجح",
+    "name_en": "Gazeret Rageh",
+    "latitude": "23203923",
+    "longitude": "68048373",
+    "is_active": true
+  },
+  {
+    "id": 4000,
+    "name_ar": "الكلابيه",
+    "name_en": "ElKelabia",
+    "latitude": "63204325",
+    "longitude": "69006274",
+    "is_active": true
+  },
+  {
+    "id": 4100,
+    "name_ar": "اسنا",
+    "name_en": "Esna",
+    "latitude": "13201936",
+    "longitude": "37093046",
+    "is_active": true
+  },
+  {
+    "id": 4200,
+    "name_ar": "الدير",
+    "name_en": "ElDeer",
+    "latitude": "76504427",
+    "longitude": "93036016",
+    "is_active": true
+  },
+  {
+    "id": 4300,
+    "name_ar": "المطاعنه",
+    "name_en": "ElMataana",
+    "latitude": "06508857",
+    "longitude": "54039675",
+    "is_active": true
+  },
+  {
+    "id": 4400,
+    "name_ar": "نجع ابو سعيد",
+    "name_en": "Naga Abo Saeed",
+    "latitude": "33104349",
+    "longitude": "57056470",
+    "is_active": true
+  },
+  {
+    "id": 4500,
+    "name_ar": "المعله",
+    "name_en": "Elmaala",
+    "latitude": "53607448",
+    "longitude": "32067547",
+    "is_active": true
+  },
+  {
+    "id": 4600,
+    "name_ar": "الشغب",
+    "name_en": "ElShaghab",
+    "latitude": "66206604",
+    "longitude": "91087713",
+    "is_active": true
+  },
+  {
+    "id": 4700,
+    "name_ar": "العديسات",
+    "name_en": "ElEdaysat",
+    "latitude": "46501045",
+    "longitude": "46022873",
+    "is_active": true
+  },
+  {
+    "id": 4800,
+    "name_ar": "ارمنت",
+    "name_en": "Armant",
+    "latitude": "13008556",
+    "longitude": "56062071",
+    "is_active": true
+  },
+  {
+    "id": 4900,
+    "name_ar": "نجع الجسور",
+    "name_en": "Nage ElGesoor",
+    "latitude": "33309251",
+    "longitude": "31037548",
+    "is_active": true
+  },
+  {
+    "id": 5000,
+    "name_ar": "الطود",
+    "name_en": "ElTood",
+    "latitude": "83909455",
+    "longitude": "34043244",
+    "is_active": true
+  },
+  {
+    "id": 5100,
+    "name_ar": "الوحده",
+    "name_en": "ElWehda",
+    "latitude": "75906892",
+    "longitude": "91052017",
+    "is_active": true
+  },
+  {
+    "id": 5200,
+    "name_ar": "البغدادي",
+    "name_en": "ElBaghdadi",
+    "latitude": "26202932",
+    "longitude": "53039979",
+    "is_active": true
+  },
+  {
+    "id": 5300,
+    "name_ar": "الرضوانيه",
+    "name_en": "ElRedwania",
+    "latitude": "83004465",
+    "longitude": "61011279",
+    "is_active": true
+  },
+  {
+    "id": 5400,
+    "name_ar": "الاقصر",
+    "name_en": "Luxor",
+    "latitude": "53109969",
+    "longitude": "20067340",
+    "is_active": true
+  },
+  {
+    "id": 5500,
+    "name_ar": "الكرنك",
+    "name_en": "ElKarnak",
+    "latitude": "45505383",
+    "longitude": "79069919",
+    "is_active": true
+  },
+  {
+    "id": 5600,
+    "name_ar": "الزينيه",
+    "name_en": "ElZaynia",
+    "latitude": "56300125",
+    "longitude": "74052172",
+    "is_active": true
+  },
+  {
+    "id": 5700,
+    "name_ar": "خزام",
+    "name_en": "Khozam",
+    "latitude": "93807678",
+    "longitude": "75025671",
+    "is_active": true
+  },
+  {
+    "id": 5800,
+    "name_ar": "العيايشه",
+    "name_en": "ElAayaysha",
+    "latitude": "23302686",
+    "longitude": "13002043",
+    "is_active": true
+  },
+  {
+    "id": 5900,
+    "name_ar": "الشنهوريه",
+    "name_en": "ElShenhoria",
+    "latitude": "35803475",
+    "longitude": "77015114",
+    "is_active": true
+  },
+  {
+    "id": 6000,
+    "name_ar": "الشيخ عامر",
+    "name_en": "ElShikh Aamer",
+    "latitude": "45600570",
+    "longitude": "72050115",
+    "is_active": true
+  },
+  {
+    "id": 6100,
+    "name_ar": "قوص",
+    "name_en": "Qus",
+    "latitude": "26804100",
+    "longitude": "74007572",
+    "is_active": true
+  },
+  {
+    "id": 6200,
+    "name_ar": "الكراتيه",
+    "name_en": "ElKeryatia",
+    "latitude": "23305899",
+    "longitude": "71080877",
+    "is_active": true
+  },
+  {
+    "id": 6300,
+    "name_ar": "قفط",
+    "name_en": "Keft",
+    "latitude": "53209695",
+    "longitude": "08096748",
+    "is_active": true
+  },
+  {
+    "id": 6400,
+    "name_ar": "البراهمه",
+    "name_en": "ElBrahma",
+    "latitude": "35706456",
+    "longitude": "67080714",
+    "is_active": true
+  },
+  {
+    "id": 6500,
+    "name_ar": "ابنود",
+    "name_en": "Abnod",
+    "latitude": "45900993",
+    "longitude": "73076879",
+    "is_active": true
+  },
+  {
+    "id": 6600,
+    "name_ar": "الاشراف",
+    "name_en": "ElAshraf",
+    "latitude": "14809303",
+    "longitude": "77093772",
+    "is_active": true
+  },
+  {
+    "id": 6700,
+    "name_ar": "الاشراف القبليه",
+    "name_en": "ElAshraf ElQiblia",
+    "latitude": "74001312",
+    "longitude": "11056149",
+    "is_active": true
+  },
+  {
+    "id": 6800,
+    "name_ar": "قنا",
+    "name_en": "Qena",
+    "latitude": "75401346",
+    "longitude": "74030512",
+    "is_active": true
+  },
+  {
+    "id": 6900,
+    "name_ar": "الجزيريه",
+    "name_en": "ElGazeria",
+    "latitude": "45107777",
+    "longitude": "64058673",
+    "is_active": true
+  },
+  {
+    "id": 7000,
+    "name_ar": "المخادمه",
+    "name_en": "ElMakhadma",
+    "latitude": "45707975",
+    "longitude": "63082272",
+    "is_active": true
+  },
+  {
+    "id": 7100,
+    "name_ar": "القناويه",
+    "name_en": "ElQenawia",
+    "latitude": "24908312",
+    "longitude": "65047179",
+    "is_active": true
+  },
+  {
+    "id": 7200,
+    "name_ar": "اولاد عمرو",
+    "name_en": "Awlad Amr",
+    "latitude": "94705619",
+    "longitude": "20032942",
+    "is_active": true
+  },
+  {
+    "id": 7300,
+    "name_ar": "السمطا",
+    "name_en": "AlSamata",
+    "latitude": "05506940",
+    "longitude": "98067418",
+    "is_active": true
+  },
+  {
+    "id": 7400,
+    "name_ar": "المراشده",
+    "name_en": "ElMarshada",
+    "latitude": "65603383",
+    "longitude": "50029073",
+    "is_active": true
+  },
+  {
+    "id": 7500,
+    "name_ar": "دشنا",
+    "name_en": "Deshna",
+    "latitude": "34802612",
+    "longitude": "42011673",
+    "is_active": true
+  },
+  {
+    "id": 7600,
+    "name_ar": "فاو",
+    "name_en": "Faw",
+    "latitude": "04000414",
+    "longitude": "49092644",
+    "is_active": true
+  },
+  {
+    "id": 7700,
+    "name_ar": "الياسينيه",
+    "name_en": "ElYaseenia",
+    "latitude": "55709040",
+    "longitude": "16088229",
+    "is_active": true
+  },
+  {
+    "id": 7800,
+    "name_ar": "الرحمانيه قبلي",
+    "name_en": "ElRahmania Qibli",
+    "latitude": "85307681",
+    "longitude": "29052970",
+    "is_active": true
+  },
+  {
+    "id": 7900,
+    "name_ar": "السلميه قبلي",
+    "name_en": "ElSelmia Qibli",
+    "latitude": "44406409",
+    "longitude": "27079775",
+    "is_active": true
+  },
+  {
+    "id": 8000,
+    "name_ar": "نجع حمادي",
+    "name_en": "Nag Hammadi",
+    "latitude": "34304502",
+    "longitude": "20005477",
+    "is_active": true
+  },
+  {
+    "id": 8100,
+    "name_ar": "بهجوره",
+    "name_en": "Bahgoraa",
+    "latitude": "64305202",
+    "longitude": "68017846",
+    "is_active": true
+  },
+  {
+    "id": 8200,
+    "name_ar": "فرشوط",
+    "name_en": "Farshot",
+    "latitude": "15602559",
+    "longitude": "38047123",
+    "is_active": true
+  },
+  {
+    "id": 8300,
+    "name_ar": "رفاعه",
+    "name_en": "Refaa",
+    "latitude": "65706387",
+    "longitude": "12075171",
+    "is_active": true
+  },
+  {
+    "id": 8400,
+    "name_ar": "ابو تشت",
+    "name_en": "Abo Tesht",
+    "latitude": "64101016",
+    "longitude": "02050975",
+    "is_active": true
+  },
+  {
+    "id": 8500,
+    "name_ar": "سمهود",
+    "name_en": "Samhood",
+    "latitude": "44504911",
+    "longitude": "86053146",
+    "is_active": true
+  },
+  {
+    "id": 8600,
+    "name_ar": "ابو شوشه",
+    "name_en": "Abo Shosha",
+    "latitude": "15901741",
+    "longitude": "40021529",
+    "is_active": true
+  },
+  {
+    "id": 8700,
+    "name_ar": "بني حميل",
+    "name_en": "Bani Hemeel",
+    "latitude": "15506876",
+    "longitude": "95027961",
+    "is_active": true
+  },
+  {
+    "id": 8800,
+    "name_ar": "البلينا",
+    "name_en": "ElBalyana",
+    "latitude": "54003321",
+    "longitude": "92071961",
+    "is_active": true
+  },
+  {
+    "id": 8900,
+    "name_ar": "الساحل قبلي",
+    "name_en": "ElSahel Qibli",
+    "latitude": "84104329",
+    "longitude": "92010043",
+    "is_active": true
+  },
+  {
+    "id": 9000,
+    "name_ar": "برديس",
+    "name_en": "Bardees",
+    "latitude": "34308026",
+    "longitude": "91065342",
+    "is_active": true
+  },
+  {
+    "id": 9100,
+    "name_ar": "مزاتا غرب",
+    "name_en": "Mozata Gharb",
+    "latitude": "55707823",
+    "longitude": "58040626",
+    "is_active": true
+  },
+  {
+    "id": 9200,
+    "name_ar": "جرجا",
+    "name_en": "Girga",
+    "latitude": "15402764",
+    "longitude": "87005861",
+    "is_active": true
+  },
+  {
+    "id": 9300,
+    "name_ar": "البندار",
+    "name_en": "ElBendar",
+    "latitude": "64306137",
+    "longitude": "82048466",
+    "is_active": true
+  },
+  {
+    "id": 9400,
+    "name_ar": "العسيرات",
+    "name_en": "ElOsayrat",
+    "latitude": "14809131",
+    "longitude": "04001656",
+    "is_active": true
+  },
+  {
+    "id": 9500,
+    "name_ar": "الاحايوه",
+    "name_en": "AlAhawia",
+    "latitude": "75504313",
+    "longitude": "60043721",
+    "is_active": true
+  },
+  {
+    "id": 9600,
+    "name_ar": "المنشاه",
+    "name_en": "ElMonshat",
+    "latitude": "35508440",
+    "longitude": "77089861",
+    "is_active": true
+  },
+  {
+    "id": 9700,
+    "name_ar": "العيساويه",
+    "name_en": "ElEesawia",
+    "latitude": "34201955",
+    "longitude": "79033766",
+    "is_active": true
+  },
+  {
+    "id": 9800,
+    "name_ar": "بلصفوره",
+    "name_en": "Balsfora",
+    "latitude": "14902654",
+    "longitude": "18096353",
+    "is_active": true
+  },
+  {
+    "id": 9900,
+    "name_ar": "سوهاج",
+    "name_en": "Sohag",
+    "latitude": "95702606",
+    "longitude": "74095729",
+    "is_active": true
+  },
+  {
+    "id": 10000,
+    "name_ar": "الحامديه",
+    "name_en": "ElHamedia",
+    "latitude": "64808550",
+    "longitude": "21049150",
+    "is_active": true
+  },
+  {
+    "id": 10100,
+    "name_ar": "جزيره شندويل",
+    "name_en": "Gazeret Shandaweel",
+    "latitude": "04906493",
+    "longitude": "86082327",
+    "is_active": true
+  },
+  {
+    "id": 10200,
+    "name_ar": "شندويل البلد",
+    "name_en": "Shandaweel Elbald",
+    "latitude": "15400537",
+    "longitude": "67096067",
+    "is_active": true
+  },
+  {
+    "id": 10300,
+    "name_ar": "المراغه",
+    "name_en": "ElMaragha",
+    "latitude": "64709165",
+    "longitude": "62024062",
+    "is_active": true
+  },
+  {
+    "id": 10400,
+    "name_ar": "الشهيد السايح",
+    "name_en": "Elshaheed Elsayeh",
+    "latitude": "14702578",
+    "longitude": "32065059",
+    "is_active": true
+  },
+  {
+    "id": 10500,
+    "name_ar": "الصوامعه",
+    "name_en": "ElSawamaa",
+    "latitude": "14704685",
+    "longitude": "98007427",
+    "is_active": true
+  },
+  {
+    "id": 10600,
+    "name_ar": "طهطا",
+    "name_en": "Tahta",
+    "latitude": "05509712",
+    "longitude": "49066969",
+    "is_active": true
+  },
+  {
+    "id": 10700,
+    "name_ar": "بنجا",
+    "name_en": "Banga",
+    "latitude": "64200188",
+    "longitude": "49001969",
+    "is_active": true
+  },
+  {
+    "id": 10800,
+    "name_ar": "شطوره",
+    "name_en": "Shatoora",
+    "latitude": "84602486",
+    "longitude": "37057957",
+    "is_active": true
+  },
+  {
+    "id": 10900,
+    "name_ar": "مشطا",
+    "name_en": "Mashta",
+    "latitude": "94701071",
+    "longitude": "01062130",
+    "is_active": true
+  },
+  {
+    "id": 11000,
+    "name_ar": "طما",
+    "name_en": "Tema",
+    "latitude": "44807266",
+    "longitude": "06089437",
+    "is_active": true
+  },
+  {
+    "id": 11100,
+    "name_ar": "اولاد الياس",
+    "name_en": "Awlad Elyass",
+    "latitude": "45002807",
+    "longitude": "31045965",
+    "is_active": true
+  },
+  {
+    "id": 11200,
+    "name_ar": "صدفا",
+    "name_en": "Sedfa",
+    "latitude": "44506893",
+    "longitude": "32064760",
+    "is_active": true
+  },
+  {
+    "id": 11300,
+    "name_ar": "النخيله",
+    "name_en": "ElNekhela",
+    "latitude": "25901608",
+    "longitude": "59048458",
+    "is_active": true
+  },
+  {
+    "id": 11400,
+    "name_ar": "ابو تيج",
+    "name_en": "Abo Teeg",
+    "latitude": "44803759",
+    "longitude": "19058639",
+    "is_active": true
+  },
+  {
+    "id": 11500,
+    "name_ar": "باقور",
+    "name_en": "Baqoor",
+    "latitude": "34606583",
+    "longitude": "27012962",
+    "is_active": true
+  },
+  {
+    "id": 11600,
+    "name_ar": "المطيعه",
+    "name_en": "ElMoteeaa",
+    "latitude": "55003613",
+    "longitude": "22054960",
+    "is_active": true
+  },
+  {
+    "id": 11700,
+    "name_ar": "شطب",
+    "name_en": "Shatb",
+    "latitude": "65804413",
+    "longitude": "61040459",
+    "is_active": true
+  },
+  {
+    "id": 11800,
+    "name_ar": "اسيوط",
+    "name_en": "Asyut",
+    "latitude": "94809636",
+    "longitude": "26022930",
+    "is_active": true
+  },
+  {
+    "id": 11900,
+    "name_ar": "جامعه الازهر",
+    "name_en": "Azhar University",
+    "latitude": "24606977",
+    "longitude": "15057664",
+    "is_active": true
+  },
+  {
+    "id": 12000,
+    "name_ar": "الفوسفات",
+    "name_en": "Fosfat",
+    "latitude": "34007073",
+    "longitude": "17043361",
+    "is_active": true
+  },
+  {
+    "id": 12100,
+    "name_ar": "منقباد",
+    "name_en": "Manqabad",
+    "latitude": "15500523",
+    "longitude": "10021065",
+    "is_active": true
+  },
+  {
+    "id": 12200,
+    "name_ar": "بني حسين",
+    "name_en": "Bani Hussin",
+    "latitude": "85102329",
+    "longitude": "85082151",
+    "is_active": true
+  },
+  {
+    "id": 12300,
+    "name_ar": "نجع سبع",
+    "name_en": "Nage Sabe",
+    "latitude": "34603031",
+    "longitude": "46000430",
+    "is_active": true
+  },
+  {
+    "id": 12400,
+    "name_ar": "الحواتكه",
+    "name_en": "Elhawatka",
+    "latitude": "04509961",
+    "longitude": "01045069",
+    "is_active": true
+  },
+  {
+    "id": 12500,
+    "name_ar": "منفلوط",
+    "name_en": "Manfalot",
+    "latitude": "65400437",
+    "longitude": "92061652",
+    "is_active": true
+  },
+  {
+    "id": 12600,
+    "name_ar": "بني شقير",
+    "name_en": "Bani Sheqeer",
+    "latitude": "75404535",
+    "longitude": "91029550",
+    "is_active": true
+  },
+  {
+    "id": 12700,
+    "name_ar": "بني قره",
+    "name_en": "Bani Qorra",
+    "latitude": "34109512",
+    "longitude": "56066834",
+    "is_active": true
+  },
+  {
+    "id": 12800,
+    "name_ar": "القوصيه",
+    "name_en": "ElQosia",
+    "latitude": "94801556",
+    "longitude": "81038254",
+    "is_active": true
+  },
+  {
+    "id": 12900,
+    "name_ar": "فزاره",
+    "name_en": "Fazara",
+    "latitude": "95506244",
+    "longitude": "85008258",
+    "is_active": true
+  },
+  {
+    "id": 13000,
+    "name_ar": "صنبو",
+    "name_en": "Sanbow",
+    "latitude": "95109747",
+    "longitude": "88012153",
+    "is_active": true
+  },
+  {
+    "id": 13100,
+    "name_ar": "ديروط",
+    "name_en": "Dayrut",
+    "latitude": "05306255",
+    "longitude": "09077668",
+    "is_active": true
+  },
+  {
+    "id": 13200,
+    "name_ar": "الجرف",
+    "name_en": "ElGarf",
+    "latitude": "33909091",
+    "longitude": "65039535",
+    "is_active": true
+  },
+  {
+    "id": 13300,
+    "name_ar": "دير مواس",
+    "name_en": "Deer Mwass",
+    "latitude": "74301233",
+    "longitude": "82099451",
+    "is_active": true
+  },
+  {
+    "id": 13400,
+    "name_ar": "تل العمارنه",
+    "name_en": "Tal Elamarna",
+    "latitude": "25708162",
+    "longitude": "89095654",
+    "is_active": true
+  },
+  {
+    "id": 13500,
+    "name_ar": "معصره ملوي",
+    "name_en": "Masaret Mallawy",
+    "latitude": "35300979",
+    "longitude": "05031165",
+    "is_active": true
+  },
+  {
+    "id": 13600,
+    "name_ar": "ملوي",
+    "name_en": "Mallawy",
+    "latitude": "63404082",
+    "longitude": "69008331",
+    "is_active": true
+  },
+  {
+    "id": 13700,
+    "name_ar": "الروضه",
+    "name_en": "ElRaouda",
+    "latitude": "34706213",
+    "longitude": "82042352",
+    "is_active": true
+  },
+  {
+    "id": 13800,
+    "name_ar": "المحرص",
+    "name_en": "ElMahras",
+    "latitude": "95302187",
+    "longitude": "87000052",
+    "is_active": true
+  },
+  {
+    "id": 13900,
+    "name_ar": "اتليدم",
+    "name_en": "Atleedem",
+    "latitude": "55407886",
+    "longitude": "04074760",
+    "is_active": true
+  },
+  {
+    "id": 14000,
+    "name_ar": "ابو قرقاص",
+    "name_en": "Abo Qorqas",
+    "latitude": "15503893",
+    "longitude": "09081563",
+    "is_active": true
+  },
+  {
+    "id": 14100,
+    "name_ar": "ابيوها",
+    "name_en": "Abyoha",
+    "latitude": "03601365",
+    "longitude": "61080434",
+    "is_active": true
+  },
+  {
+    "id": 14200,
+    "name_ar": "منسافيس",
+    "name_en": "Mensafes",
+    "latitude": "33705192",
+    "longitude": "86069053",
+    "is_active": true
+  },
+  {
+    "id": 14300,
+    "name_ar": "بني احمد",
+    "name_en": "Bani Ahmed",
+    "latitude": "06905802",
+    "longitude": "73078852",
+    "is_active": true
+  },
+  {
+    "id": 14400,
+    "name_ar": "مصنع الغزل",
+    "name_en": "Masna ElGhazel",
+    "latitude": "06607107",
+    "longitude": "16034166",
+    "is_active": true
+  },
+  {
+    "id": 14500,
+    "name_ar": "المنيا",
+    "name_en": "Minya",
+    "latitude": "33208945",
+    "longitude": "78062234",
+    "is_active": true
+  },
+  {
+    "id": 14600,
+    "name_ar": "دماريس",
+    "name_en": "Demares",
+    "latitude": "33603380",
+    "longitude": "79026358",
+    "is_active": true
+  },
+  {
+    "id": 14700,
+    "name_ar": "البرجايه",
+    "name_en": "ElBergaia",
+    "latitude": "66305117",
+    "longitude": "73094256",
+    "is_active": true
+  },
+  {
+    "id": 14800,
+    "name_ar": "صفط اللبن",
+    "name_en": "Saft ElLaban",
+    "latitude": "66708113",
+    "longitude": "16039568",
+    "is_active": true
+  },
+  {
+    "id": 14900,
+    "name_ar": "اطسا",
+    "name_en": "Atsa",
+    "latitude": "43405733",
+    "longitude": "73017538",
+    "is_active": false
+  },
+  {
+    "id": 15000,
+    "name_ar": "البيهو",
+    "name_en": "Elbeho",
+    "latitude": "63701736",
+    "longitude": "71004535",
+    "is_active": true
+  },
+  {
+    "id": 15100,
+    "name_ar": "سمالوط",
+    "name_en": "Samalut",
+    "latitude": "73904865",
+    "longitude": "77059050",
+    "is_active": true
+  },
+  {
+    "id": 15200,
+    "name_ar": "قلوصنا",
+    "name_en": "Qalwasna",
+    "latitude": "96704138",
+    "longitude": "77091359",
+    "is_active": true
+  },
+  {
+    "id": 15300,
+    "name_ar": "مطاي",
+    "name_en": "Matay",
+    "latitude": "36601749",
+    "longitude": "08032967",
+    "is_active": true
+  },
+  {
+    "id": 15400,
+    "name_ar": "الكفور",
+    "name_en": "ElKfor",
+    "latitude": "53903114",
+    "longitude": "63027739",
+    "is_active": true
+  },
+  {
+    "id": 15500,
+    "name_ar": "بني مزار",
+    "name_en": "Bani Mazar",
+    "latitude": "23706744",
+    "longitude": "71079953",
+    "is_active": true
+  },
+  {
+    "id": 15600,
+    "name_ar": "الموده",
+    "name_en": "ElMawada",
+    "latitude": "06504657",
+    "longitude": "85054053",
+    "is_active": true
+  },
+  {
+    "id": 15700,
+    "name_ar": "اباالوقف",
+    "name_en": "AbalWakf",
+    "latitude": "36308850",
+    "longitude": "01050668",
+    "is_active": true
+  },
+  {
+    "id": 15800,
+    "name_ar": "مغاغه",
+    "name_en": "Maghagha",
+    "latitude": "02103799",
+    "longitude": "60018436",
+    "is_active": true
+  },
+  {
+    "id": 15900,
+    "name_ar": "ملاطيه",
+    "name_en": "Malatia",
+    "latitude": "43005421",
+    "longitude": "84081450",
+    "is_active": true
+  },
+  {
+    "id": 16000,
+    "name_ar": "الفنت",
+    "name_en": "ElFant",
+    "latitude": "63600928",
+    "longitude": "83011653",
+    "is_active": true
+  },
+  {
+    "id": 16100,
+    "name_ar": "الفشن",
+    "name_en": "ElFashn",
+    "latitude": "36602788",
+    "longitude": "91046051",
+    "is_active": true
+  },
+  {
+    "id": 16200,
+    "name_ar": "سدس",
+    "name_en": "Sods",
+    "latitude": "86009186",
+    "longitude": "98066354",
+    "is_active": true
+  },
+  {
+    "id": 16300,
+    "name_ar": "ببا",
+    "name_en": "Beba",
+    "latitude": "92205466",
+    "longitude": "53004038",
+    "is_active": true
+  },
+  {
+    "id": 16400,
+    "name_ar": "طحا البيشه",
+    "name_en": "Tahal Besha",
+    "latitude": "22909695",
+    "longitude": "99097850",
+    "is_active": true
+  },
+  {
+    "id": 16500,
+    "name_ar": "طنسا",
+    "name_en": "Tansa",
+    "latitude": "57100008",
+    "longitude": "02083166",
+    "is_active": true
+  },
+  {
+    "id": 16600,
+    "name_ar": "تزمنت",
+    "name_en": "Tazmont",
+    "latitude": "87504505",
+    "longitude": "87016354",
+    "is_active": true
+  },
+  {
+    "id": 16700,
+    "name_ar": "بني سويف",
+    "name_en": "Bani Suef",
+    "latitude": "32000759",
+    "longitude": "34044835",
+    "is_active": true
+  },
+  {
+    "id": 16800,
+    "name_ar": "شريف باشا",
+    "name_en": "Sheref Basha",
+    "latitude": "02205889",
+    "longitude": "14076069",
+    "is_active": true
+  },
+  {
+    "id": 16900,
+    "name_ar": "ناصر",
+    "name_en": "Naser",
+    "latitude": "57804616",
+    "longitude": "17080366",
+    "is_active": true
+  },
+  {
+    "id": 17000,
+    "name_ar": "الزيتون قبلي",
+    "name_en": "ElZayton Qibli",
+    "latitude": "67907919",
+    "longitude": "12063567",
+    "is_active": true
+  },
+  {
+    "id": 17100,
+    "name_ar": "اشمنت",
+    "name_en": "Ashmant",
+    "latitude": "37500325",
+    "longitude": "73083056",
+    "is_active": true
+  },
+  {
+    "id": 17200,
+    "name_ar": "الميمون",
+    "name_en": "ElMaymoon",
+    "latitude": "22004339",
+    "longitude": "26084834",
+    "is_active": true
+  },
+  {
+    "id": 17300,
+    "name_ar": "بني حدير",
+    "name_en": "Bani Heder",
+    "latitude": "22500479",
+    "longitude": "16058862",
+    "is_active": true
+  },
+  {
+    "id": 17400,
+    "name_ar": "قمن العروس",
+    "name_en": "Komn ELAroos",
+    "latitude": "87309523",
+    "longitude": "10070868",
+    "is_active": true
+  },
+  {
+    "id": 17500,
+    "name_ar": "الواسطي",
+    "name_en": "ElWasta",
+    "latitude": "67103035",
+    "longitude": "63069755",
+    "is_active": true
+  },
+  {
+    "id": 17600,
+    "name_ar": "اطواب",
+    "name_en": "Atwab",
+    "latitude": "22409913",
+    "longitude": "23036838",
+    "is_active": true
+  },
+  {
+    "id": 17700,
+    "name_ar": "الرقه",
+    "name_en": "ElRaqa",
+    "latitude": "32804855",
+    "longitude": "18027866",
+    "is_active": true
+  },
+  {
+    "id": 17800,
+    "name_ar": "القطوري",
+    "name_en": "ElQatory",
+    "latitude": "77905047",
+    "longitude": "24049166",
+    "is_active": true
+  },
+  {
+    "id": 17900,
+    "name_ar": "كفر عمار",
+    "name_en": "Kafr Ammar",
+    "latitude": "97609244",
+    "longitude": "62057454",
+    "is_active": true
+  },
+  {
+    "id": 18000,
+    "name_ar": "ميت القايد",
+    "name_en": "Meet ElQayed",
+    "latitude": "17603355",
+    "longitude": "65087256",
+    "is_active": true
+  },
+  {
+    "id": 18100,
+    "name_ar": "المتانيه",
+    "name_en": "ElMatania",
+    "latitude": "92300603",
+    "longitude": "26081234",
+    "is_active": true
+  },
+  {
+    "id": 18200,
+    "name_ar": "العياط",
+    "name_en": "ElAyyat",
+    "latitude": "82003939",
+    "longitude": "25068467",
+    "is_active": true
+  },
+  {
+    "id": 18300,
+    "name_ar": "البليده",
+    "name_en": "ElBaleeda",
+    "latitude": "07808766",
+    "longitude": "29019767",
+    "is_active": true
+  },
+  {
+    "id": 18400,
+    "name_ar": "المزغونه",
+    "name_en": "ElMazghona",
+    "latitude": "47904870",
+    "longitude": "67001252",
+    "is_active": true
+  },
+  {
+    "id": 18500,
+    "name_ar": "المرازيق",
+    "name_en": "ElMarazeek",
+    "latitude": "01207172",
+    "longitude": "23084038",
+    "is_active": true
+  },
+  {
+    "id": 18600,
+    "name_ar": "البدرشين",
+    "name_en": "ElBadrasheen",
+    "latitude": "42800518",
+    "longitude": "20087666",
+    "is_active": true
+  },
+  {
+    "id": 18700,
+    "name_ar": "الحوامديه",
+    "name_en": "Elhawamdia",
+    "latitude": "57709683",
+    "longitude": "29095669",
+    "is_active": true
+  },
+  {
+    "id": 18800,
+    "name_ar": "الجيزه",
+    "name_en": "Giza",
+    "latitude": "58300401",
+    "longitude": "65022755",
+    "is_active": true
+  },
+  {
+    "id": 18900,
+    "name_ar": "صعيد مصر",
+    "name_en": "Upper Egypt(Bashtil)",
+    "latitude": "41101957",
+    "longitude": "29004935",
+    "is_active": true
+  },
+  {
+    "id": 19000,
+    "name_ar": "امبابه",
+    "name_en": "Imbamba",
+    "latitude": "31600850",
+    "longitude": "22024632",
+    "is_active": false
+  },
+  {
+    "id": 19100,
+    "name_ar": "القاهره",
+    "name_en": "Cairo",
+    "latitude": "41609789",
+    "longitude": "29089363",
+    "is_active": true
+  },
+  {
+    "id": 19200,
+    "name_ar": "الزاويه الحمراء",
+    "name_en": "ElZawia ELHamra",
+    "latitude": "68008007",
+    "longitude": "24072665",
+    "is_active": true
+  },
+  {
+    "id": 19300,
+    "name_ar": "شبرا الخيمه",
+    "name_en": "Shobra ElKhema",
+    "latitude": "18602816",
+    "longitude": "60057354",
+    "is_active": true
+  },
+  {
+    "id": 19350,
+    "name_ar": "ميت حلفا",
+    "name_en": "Mit Halfa",
+    "latitude": "51702047",
+    "longitude": "24001535",
+    "is_active": true
+  },
+  {
+    "id": 19400,
+    "name_ar": "قليوب",
+    "name_en": "Qalub",
+    "latitude": "01800744",
+    "longitude": "23042537",
+    "is_active": true
+  },
+  {
+    "id": 19500,
+    "name_ar": "قها",
+    "name_en": "Qaha",
+    "latitude": "31507566",
+    "longitude": "12099968",
+    "is_active": true
+  },
+  {
+    "id": 19600,
+    "name_ar": "طوخ",
+    "name_en": "Tokh",
+    "latitude": "18505934",
+    "longitude": "18071968",
+    "is_active": true
+  },
+  {
+    "id": 19700,
+    "name_ar": "سندنهور",
+    "name_en": "Sandnahoor",
+    "latitude": "18101546",
+    "longitude": "61020956",
+    "is_active": true
+  },
+  {
+    "id": 19800,
+    "name_ar": "بنها",
+    "name_en": "Banha",
+    "latitude": "41202115",
+    "longitude": "23098931",
+    "is_active": true
+  },
+  {
+    "id": 19900,
+    "name_ar": "مفارق بنها",
+    "name_en": "Banha Branch",
+    "latitude": "91108741",
+    "longitude": "13007660",
+    "is_active": false
+  },
+  {
+    "id": 19950,
+    "name_ar": "عرب الرمل",
+    "name_en": "Arab ELRaml",
+    "latitude": "18901053",
+    "longitude": "11085567",
+    "is_active": true
+  },
+  {
+    "id": 20000,
+    "name_ar": "قويسنا",
+    "name_en": "Qouesna",
+    "latitude": "21803907",
+    "longitude": "31007431",
+    "is_active": true
+  },
+  {
+    "id": 20100,
+    "name_ar": "بركه السبع",
+    "name_en": "Berket ElSabe",
+    "latitude": "21102732",
+    "longitude": "05013766",
+    "is_active": true
+  },
+  {
+    "id": 20150,
+    "name_ar": "ابو مشهور",
+    "name_en": "Abo Mashoor",
+    "latitude": "68709869",
+    "longitude": "02055461",
+    "is_active": true
+  },
+  {
+    "id": 20200,
+    "name_ar": "طنطا",
+    "name_en": "Tanta",
+    "latitude": "18908875",
+    "longitude": "91043950",
+    "is_active": true
+  },
+  {
+    "id": 20300,
+    "name_ar": "كفر الزيات",
+    "name_en": "Kafr ElZayat",
+    "latitude": "98001481",
+    "longitude": "04046666",
+    "is_active": true
+  },
+  {
+    "id": 20400,
+    "name_ar": "التوفيقيه",
+    "name_en": "ElTawfiqia",
+    "latitude": "40606271",
+    "longitude": "74023331",
+    "is_active": true
+  },
+  {
+    "id": 20500,
+    "name_ar": "ايتاي البارود",
+    "name_en": "Etay ElBarood",
+    "latitude": "31707508",
+    "longitude": "61026556",
+    "is_active": true
+  },
+  {
+    "id": 20600,
+    "name_ar": "دمنهور",
+    "name_en": "Damanhoor",
+    "latitude": "49503701",
+    "longitude": "48088654",
+    "is_active": true
+  },
+  {
+    "id": 20700,
+    "name_ar": "ابو حمص",
+    "name_en": "Abo Hommos",
+    "latitude": "59708100",
+    "longitude": "54019764",
+    "is_active": true
+  },
+  {
+    "id": 20800,
+    "name_ar": "كفر الدوار",
+    "name_en": "Kafr ElDawar",
+    "latitude": "70004247",
+    "longitude": "37001547",
+    "is_active": true
+  },
+  {
+    "id": 20900,
+    "name_ar": "سيدي جابر",
+    "name_en": "Sidi Gaber",
+    "latitude": "90503873",
+    "longitude": "94035348",
+    "is_active": true
+  },
+  {
+    "id": 21000,
+    "name_ar": "الحضره",
+    "name_en": "ElHadra",
+    "latitude": "40705673",
+    "longitude": "99010241",
+    "is_active": true
+  },
+  {
+    "id": 21100,
+    "name_ar": "الاسكندريه",
+    "name_en": "Alexandria",
+    "latitude": "39109718",
+    "longitude": "99073049",
+    "is_active": true
+  },
+  {
+    "id": 21200,
+    "name_ar": "الفيوم",
+    "name_en": "Fayuom",
+    "latitude": "97100931",
+    "longitude": "02022365",
+    "is_active": true
+  },
+  {
+    "id": 21300,
+    "name_ar": "عامريه الفيوم",
+    "name_en": "Aameriet ElFayoum",
+    "latitude": "12905628",
+    "longitude": "57001939",
+    "is_active": true
+  },
+  {
+    "id": 21400,
+    "name_ar": "العدوه",
+    "name_en": "ElEdwa",
+    "latitude": "72901762",
+    "longitude": "99072050",
+    "is_active": true
+  },
+  {
+    "id": 21500,
+    "name_ar": "سيلا",
+    "name_en": "Sila",
+    "latitude": "17103738",
+    "longitude": "94029758",
+    "is_active": true
+  },
+  {
+    "id": 21600,
+    "name_ar": "الناصريه",
+    "name_en": "ElNaseria",
+    "latitude": "07402838",
+    "longitude": "85059654",
+    "is_active": true
+  },
+  {
+    "id": 21700,
+    "name_ar": "الروس",
+    "name_en": "ElRoos",
+    "latitude": "32005028",
+    "longitude": "45008536",
+    "is_active": true
+  },
+  {
+    "id": 21800,
+    "name_ar": "الورش",
+    "name_en": "ElWerash",
+    "latitude": "02802567",
+    "longitude": "17012069",
+    "is_active": true
+  },
+  {
+    "id": 21900,
+    "name_ar": "كوم ابو راضي",
+    "name_en": "Kom Abo Radi",
+    "latitude": "27603335",
+    "longitude": "10037461",
+    "is_active": true
+  },
+  {
+    "id": 22000,
+    "name_ar": "قليوب البلد",
+    "name_en": "Qalub ElBald",
+    "latitude": "28408017",
+    "longitude": "24041066",
+    "is_active": true
+  },
+  {
+    "id": 22100,
+    "name_ar": "كفر رماده",
+    "name_en": "Kafr Ramada",
+    "latitude": "98300729",
+    "longitude": "63071351",
+    "is_active": true
+  },
+  {
+    "id": 22200,
+    "name_ar": "نوي",
+    "name_en": "Nawee",
+    "latitude": "51304738",
+    "longitude": "21053130",
+    "is_active": true
+  },
+  {
+    "id": 22300,
+    "name_ar": "الزهوين",
+    "name_en": "ElZahween",
+    "latitude": "11000378",
+    "longitude": "21048760",
+    "is_active": true
+  },
+  {
+    "id": 22400,
+    "name_ar": "كفر طحا",
+    "name_en": "Kafr Taha",
+    "latitude": "88706429",
+    "longitude": "28086868",
+    "is_active": true
+  },
+  {
+    "id": 22500,
+    "name_ar": "طحانوب",
+    "name_en": "Tahanoob",
+    "latitude": "18108321",
+    "longitude": "57073851",
+    "is_active": true
+  },
+  {
+    "id": 22600,
+    "name_ar": "كفر شبين",
+    "name_en": "Kafr Shibin",
+    "latitude": "21208325",
+    "longitude": "16093734",
+    "is_active": true
+  },
+  {
+    "id": 22700,
+    "name_ar": "شبين القناطر",
+    "name_en": "Shibin ElQanater",
+    "latitude": "51304464",
+    "longitude": "35065066",
+    "is_active": true
+  },
+  {
+    "id": 22800,
+    "name_ar": "منشاه الكرام",
+    "name_en": "Manshat ElKeram",
+    "latitude": "18503237",
+    "longitude": "31038565",
+    "is_active": true
+  },
+  {
+    "id": 22900,
+    "name_ar": "مشتول",
+    "name_en": "Mashtool",
+    "latitude": "88204334",
+    "longitude": "47025954",
+    "is_active": true
+  },
+  {
+    "id": 23000,
+    "name_ar": "سلمنت",
+    "name_en": "Salamant",
+    "latitude": "38506336",
+    "longitude": "45009651",
+    "is_active": true
+  },
+  {
+    "id": 23100,
+    "name_ar": "انشاص",
+    "name_en": "Anshass",
+    "latitude": "31900422",
+    "longitude": "02032333",
+    "is_active": true
+  },
+  {
+    "id": 23200,
+    "name_ar": "بير عماره",
+    "name_en": "Beer Emara",
+    "latitude": "31006557",
+    "longitude": "44080766",
+    "is_active": true
+  },
+  {
+    "id": 23300,
+    "name_ar": "تل روزن",
+    "name_en": "Tal Rozon",
+    "latitude": "68400946",
+    "longitude": "56017162",
+    "is_active": true
+  },
+  {
+    "id": 23400,
+    "name_ar": "بلبيس",
+    "name_en": "Bilbais",
+    "latitude": "88502147",
+    "longitude": "34041258",
+    "is_active": true
+  },
+  {
+    "id": 23500,
+    "name_ar": "اولاد سيف",
+    "name_en": "Awlad Saif",
+    "latitude": "21401114",
+    "longitude": "93016328",
+    "is_active": true
+  },
+  {
+    "id": 23600,
+    "name_ar": "بردين",
+    "name_en": "Berdeen",
+    "latitude": "11905142",
+    "longitude": "59095269",
+    "is_active": true
+  },
+  {
+    "id": 23700,
+    "name_ar": "العصلوجي",
+    "name_en": "ElAsloogy",
+    "latitude": "78305750",
+    "longitude": "55012267",
+    "is_active": true
+  },
+  {
+    "id": 23800,
+    "name_ar": "الزقازيق",
+    "name_en": "Zagazig",
+    "latitude": "18308358",
+    "longitude": "31078758",
+    "is_active": true
+  },
+  {
+    "id": 23900,
+    "name_ar": "هريه رزنه",
+    "name_en": "Heriat Razana",
+    "latitude": "40307693",
+    "longitude": "91070428",
+    "is_active": true
+  },
+  {
+    "id": 24000,
+    "name_ar": "كفر المسلميه",
+    "name_en": "Kafr ElMeslamia",
+    "latitude": "50606095",
+    "longitude": "94050326",
+    "is_active": true
+  },
+  {
+    "id": 24100,
+    "name_ar": "العداويه",
+    "name_en": "ElEdawia",
+    "latitude": "11902032",
+    "longitude": "57075560",
+    "is_active": true
+  },
+  {
+    "id": 24200,
+    "name_ar": "ههيا",
+    "name_en": "Hehya",
+    "latitude": "08207665",
+    "longitude": "51006964",
+    "is_active": true
+  },
+  {
+    "id": 24300,
+    "name_ar": "شرشيمه",
+    "name_en": "Sharshemia",
+    "latitude": "38009864",
+    "longitude": "27009655",
+    "is_active": true
+  },
+  {
+    "id": 24400,
+    "name_ar": "ابو ياسين",
+    "name_en": "Abo Yaseen",
+    "latitude": "60207086",
+    "longitude": "86059427",
+    "is_active": true
+  },
+  {
+    "id": 24500,
+    "name_ar": "ابو كبير",
+    "name_en": "Abo Kebeer",
+    "latitude": "11303924",
+    "longitude": "69093569",
+    "is_active": true
+  },
+  {
+    "id": 24600,
+    "name_ar": "نزله خيال",
+    "name_en": "Nazelt Khayal",
+    "latitude": "28506774",
+    "longitude": "68035563",
+    "is_active": true
+  },
+  {
+    "id": 24700,
+    "name_ar": "البوها",
+    "name_en": "Alboha",
+    "latitude": "38608075",
+    "longitude": "20064457",
+    "is_active": true
+  },
+  {
+    "id": 24800,
+    "name_ar": "كفر صقر",
+    "name_en": "Kafr Sakr",
+    "latitude": "70508275",
+    "longitude": "88023522",
+    "is_active": true
+  },
+  {
+    "id": 24900,
+    "name_ar": "بدوي",
+    "name_en": "Badawee",
+    "latitude": "51004613",
+    "longitude": "61022067",
+    "is_active": true
+  },
+  {
+    "id": 25000,
+    "name_ar": "ابو الشقوق",
+    "name_en": "Abo ElShokook",
+    "latitude": "71602211",
+    "longitude": "52053864",
+    "is_active": true
+  },
+  {
+    "id": 25100,
+    "name_ar": "هيكل باشا",
+    "name_en": "Haykel Bash",
+    "latitude": "18604488",
+    "longitude": "56062665",
+    "is_active": true
+  },
+  {
+    "id": 25200,
+    "name_ar": "برقين",
+    "name_en": "Berkeen",
+    "latitude": "58405983",
+    "longitude": "39002550",
+    "is_active": true
+  },
+  {
+    "id": 25300,
+    "name_ar": "طرانيس العرب",
+    "name_en": "Tranees ElArab",
+    "latitude": "40101975",
+    "longitude": "94076724",
+    "is_active": true
+  },
+  {
+    "id": 25400,
+    "name_ar": "السنبلاوين",
+    "name_en": "ElSanbelaween",
+    "latitude": "31807504",
+    "longitude": "42025566",
+    "is_active": true
+  },
+  {
+    "id": 25500,
+    "name_ar": "شبرا قباله",
+    "name_en": "Shobra Kebala",
+    "latitude": "68701097",
+    "longitude": "46035463",
+    "is_active": true
+  },
+  {
+    "id": 25600,
+    "name_ar": "الزريقي",
+    "name_en": "ElRezaiky",
+    "latitude": "78203291",
+    "longitude": "49062459",
+    "is_active": true
+  },
+  {
+    "id": 25700,
+    "name_ar": "البقليه",
+    "name_en": "ElBaklia",
+    "latitude": "10902362",
+    "longitude": "04089537",
+    "is_active": true
+  },
+  {
+    "id": 25800,
+    "name_ar": "شاوه",
+    "name_en": "Shawa",
+    "latitude": "80305295",
+    "longitude": "39032963",
+    "is_active": true
+  },
+  {
+    "id": 25900,
+    "name_ar": "سندوب",
+    "name_en": "Sandoob",
+    "latitude": "99701306",
+    "longitude": "30017964",
+    "is_active": true
+  },
+  {
+    "id": 26000,
+    "name_ar": "المنصوره",
+    "name_en": "Mansoura",
+    "latitude": "59604007",
+    "longitude": "39086864",
+    "is_active": true
+  },
+  {
+    "id": 26100,
+    "name_ar": "الرجديه",
+    "name_en": "ElEagdia",
+    "latitude": "08303589",
+    "longitude": "88048359",
+    "is_active": true
+  },
+  {
+    "id": 26200,
+    "name_ar": "شبشير الحصه",
+    "name_en": "Shabsheer ElHessa",
+    "latitude": "10202672",
+    "longitude": "45086030",
+    "is_active": true
+  },
+  {
+    "id": 26300,
+    "name_ar": "محله روح",
+    "name_en": "Mahallet Rooh",
+    "latitude": "51508700",
+    "longitude": "05058763",
+    "is_active": true
+  },
+  {
+    "id": 26400,
+    "name_ar": "صفط تراب",
+    "name_en": "Saft Torab",
+    "latitude": "48300395",
+    "longitude": "16009167",
+    "is_active": true
+  },
+  {
+    "id": 26500,
+    "name_ar": "منيه شنتاعياش",
+    "name_en": "Menyet Shanta Ayash",
+    "latitude": "08703999",
+    "longitude": "70074450",
+    "is_active": true
+  },
+  {
+    "id": 26600,
+    "name_ar": "منشيه البكري",
+    "name_en": "Manshyet ElBakry",
+    "latitude": "80102465",
+    "longitude": "35085232",
+    "is_active": true
+  },
+  {
+    "id": 26700,
+    "name_ar": "المحله الكبري",
+    "name_en": "ElMahalla ElKobra",
+    "latitude": "90308390",
+    "longitude": "15010663",
+    "is_active": true
+  },
+  {
+    "id": 26800,
+    "name_ar": "غزل المحله",
+    "name_en": "Ghazl ElMahalla",
+    "latitude": "08107393",
+    "longitude": "10051866",
+    "is_active": true
+  },
+  {
+    "id": 26900,
+    "name_ar": "محله ابو علي القنطره",
+    "name_en": "Mahallet Abo Ali",
+    "latitude": "88706793",
+    "longitude": "66063857",
+    "is_active": true
+  },
+  {
+    "id": 27000,
+    "name_ar": "الراهبين",
+    "name_en": "ElRahebeen",
+    "latitude": "68906193",
+    "longitude": "60052654",
+    "is_active": true
+  },
+  {
+    "id": 27100,
+    "name_ar": "سمنود",
+    "name_en": "Sammanood",
+    "latitude": "50601464",
+    "longitude": "21038332",
+    "is_active": true
+  },
+  {
+    "id": 27200,
+    "name_ar": "ميت خلف",
+    "name_en": "Meet Khalf",
+    "latitude": "90306990",
+    "longitude": "29014666",
+    "is_active": true
+  },
+  {
+    "id": 27300,
+    "name_ar": "ميت عساس",
+    "name_en": "Meet Asass",
+    "latitude": "69500405",
+    "longitude": "27083869",
+    "is_active": true
+  },
+  {
+    "id": 27400,
+    "name_ar": "كفر العرب",
+    "name_en": "Kafr ElArab",
+    "latitude": "29902408",
+    "longitude": "50032753",
+    "is_active": true
+  },
+  {
+    "id": 27500,
+    "name_ar": "ميت الكرما",
+    "name_en": "Meet ElKarma",
+    "latitude": "60103651",
+    "longitude": "12088437",
+    "is_active": true
+  },
+  {
+    "id": 27600,
+    "name_ar": "طلخا",
+    "name_en": "Talkha",
+    "latitude": "40800092",
+    "longitude": "38094664",
+    "is_active": true
+  },
+  {
+    "id": 27700,
+    "name_ar": "سماد طلخا",
+    "name_en": "Semad Talkha",
+    "latitude": "19307606",
+    "longitude": "33019967",
+    "is_active": true
+  },
+  {
+    "id": 27800,
+    "name_ar": "ميت عنتر",
+    "name_en": "Meet Antar",
+    "latitude": "49608204",
+    "longitude": "49011855",
+    "is_active": true
+  },
+  {
+    "id": 27900,
+    "name_ar": "شرنقاش",
+    "name_en": "Sharnqash",
+    "latitude": "70507446",
+    "longitude": "06015736",
+    "is_active": true
+  },
+  {
+    "id": 28000,
+    "name_ar": "الطويله",
+    "name_en": "ElTaweela",
+    "latitude": "90405746",
+    "longitude": "00027631",
+    "is_active": true
+  },
+  {
+    "id": 28100,
+    "name_ar": "ديسط",
+    "name_en": "Deyaset",
+    "latitude": "80900386",
+    "longitude": "49049267",
+    "is_active": true
+  },
+  {
+    "id": 28200,
+    "name_ar": "بطره",
+    "name_en": "Batra",
+    "latitude": "69706811",
+    "longitude": "46012465",
+    "is_active": true
+  },
+  {
+    "id": 28225,
+    "name_ar": "عزبه ستوته",
+    "name_en": "Ezbet Sattota",
+    "latitude": "60806979",
+    "longitude": "48047462",
+    "is_active": false
+  },
+  {
+    "id": 28250,
+    "name_ar": "منحني بسنديله بطره",
+    "name_en": "Basandila Batra curve",
+    "latitude": "59309819",
+    "longitude": "43074258",
+    "is_active": false
+  },
+  {
+    "id": 28275,
+    "name_ar": "تفرع بسنديله",
+    "name_en": "Basandila Joint",
+    "latitude": "89009219",
+    "longitude": "47085469",
+    "is_active": false
+  },
+  {
+    "id": 28300,
+    "name_ar": "الحاج خليل",
+    "name_en": "ElHag Khaleel",
+    "latitude": "99207510",
+    "longitude": "42050156",
+    "is_active": true
+  },
+  {
+    "id": 28400,
+    "name_ar": "كفر الدبوسي",
+    "name_en": "Kafr ElDabbosy",
+    "latitude": "10209632",
+    "longitude": "98005820",
+    "is_active": true
+  },
+  {
+    "id": 28500,
+    "name_ar": "كفر الحطبه",
+    "name_en": "Kfar AlHtaba",
+    "latitude": "60507970",
+    "longitude": "49042767",
+    "is_active": true
+  },
+  {
+    "id": 28600,
+    "name_ar": "شربين",
+    "name_en": "Shirbin",
+    "latitude": "29209014",
+    "longitude": "52078268",
+    "is_active": true
+  },
+  {
+    "id": 28700,
+    "name_ar": "السعادوه",
+    "name_en": "Elsaawda",
+    "latitude": "89300723",
+    "longitude": "36066252",
+    "is_active": true
+  },
+  {
+    "id": 28800,
+    "name_ar": "الصبريه",
+    "name_en": "ElSabriyah",
+    "latitude": "50105139",
+    "longitude": "98017027",
+    "is_active": true
+  },
+  {
+    "id": 28900,
+    "name_ar": "راس الخليج",
+    "name_en": "Ras ElKhaleeg",
+    "latitude": "10108060",
+    "longitude": "64030161",
+    "is_active": true
+  },
+  {
+    "id": 29000,
+    "name_ar": "جمصه",
+    "name_en": "Gamsa",
+    "latitude": "20206467",
+    "longitude": "61088262",
+    "is_active": true
+  },
+  {
+    "id": 29100,
+    "name_ar": "السوالم",
+    "name_en": "Elsawalem",
+    "latitude": "29300839",
+    "longitude": "64027467",
+    "is_active": true
+  },
+  {
+    "id": 29200,
+    "name_ar": "كفر سعد البلد",
+    "name_en": "Kafr Saad ElBalad",
+    "latitude": "99901932",
+    "longitude": "27043254",
+    "is_active": true
+  },
+  {
+    "id": 29300,
+    "name_ar": "كفر سعد",
+    "name_en": "Kfar Saad",
+    "latitude": "40002827",
+    "longitude": "75008926",
+    "is_active": true
+  },
+  {
+    "id": 29400,
+    "name_ar": "التوفيقيه البلد",
+    "name_en": "ElTawfiqia ElBalad",
+    "latitude": "00707658",
+    "longitude": "67054961",
+    "is_active": true
+  },
+  {
+    "id": 29500,
+    "name_ar": "كفر البطيخ",
+    "name_en": "Kafr ElBatteekh",
+    "latitude": "59600349",
+    "longitude": "77085365",
+    "is_active": true
+  },
+  {
+    "id": 29600,
+    "name_ar": "بساتين كفر البطيخ",
+    "name_en": "Basateen Kafr ElBatteekh",
+    "latitude": "89901449",
+    "longitude": "14093153",
+    "is_active": true
+  },
+  {
+    "id": 29700,
+    "name_ar": "دمياط",
+    "name_en": "Damietta",
+    "latitude": "00406714",
+    "longitude": "64034722",
+    "is_active": true
+  },
+  {
+    "id": 29800,
+    "name_ar": "الاسماعيليه",
+    "name_en": "Ismailia",
+    "latitude": "51906631",
+    "longitude": "27013671",
+    "is_active": true
+  },
+  {
+    "id": 29900,
+    "name_ar": "الشيخ زايد",
+    "name_en": "ElSheikh Zayed",
+    "latitude": "18400462",
+    "longitude": "28079977",
+    "is_active": true
+  },
+  {
+    "id": 30000,
+    "name_ar": "الفردان",
+    "name_en": "ElFardan",
+    "latitude": "11707026",
+    "longitude": "35069278",
+    "is_active": true
+  },
+  {
+    "id": 30100,
+    "name_ar": "البلاح",
+    "name_en": "ELBallah",
+    "latitude": "18107670",
+    "longitude": "31067176",
+    "is_active": true
+  },
+  {
+    "id": 30200,
+    "name_ar": "القنطره غرب",
+    "name_en": "Qantara Gharb",
+    "latitude": "88905680",
+    "longitude": "55066648",
+    "is_active": true
+  },
+  {
+    "id": 30300,
+    "name_ar": "الكاب",
+    "name_en": "ElKab",
+    "latitude": "30603160",
+    "longitude": "15091623",
+    "is_active": true
+  },
+  {
+    "id": 30400,
+    "name_ar": "التينه",
+    "name_en": "ElTeena",
+    "latitude": "50001796",
+    "longitude": "22080977",
+    "is_active": true
+  },
+  {
+    "id": 30500,
+    "name_ar": "راس العش",
+    "name_en": "Ras ElEsh",
+    "latitude": "79003616",
+    "longitude": "31046072",
+    "is_active": true
+  },
+  {
+    "id": 30600,
+    "name_ar": "الرسوه",
+    "name_en": "ElReswa",
+    "latitude": "69701628",
+    "longitude": "52083746",
+    "is_active": true
+  },
+  {
+    "id": 30700,
+    "name_ar": "بور سعيد",
+    "name_en": "Port Said",
+    "latitude": "10602034",
+    "longitude": "17009822",
+    "is_active": true
+  },
+  {
+    "id": 30800,
+    "name_ar": "معسكر الجلاء",
+    "name_en": "Moaskar ElGalal",
+    "latitude": "41107433",
+    "longitude": "24057470",
+    "is_active": true
+  },
+  {
+    "id": 30900,
+    "name_ar": "نفيشه",
+    "name_en": "Nafeesha",
+    "latitude": "48507051",
+    "longitude": "22018378",
+    "is_active": true
+  },
+  {
+    "id": 31000,
+    "name_ar": "الضبعيه",
+    "name_en": "Dabeiya",
+    "latitude": "98002053",
+    "longitude": "23099773",
+    "is_active": true
+  },
+  {
+    "id": 31100,
+    "name_ar": "عين غصين",
+    "name_en": "Ain Ghaseen",
+    "latitude": "08301754",
+    "longitude": "51035848",
+    "is_active": true
+  },
+  {
+    "id": 31200,
+    "name_ar": "سرابيوم",
+    "name_en": "Sarabium",
+    "latitude": "21400210",
+    "longitude": "16004627",
+    "is_active": true
+  },
+  {
+    "id": 31300,
+    "name_ar": "10رمضان",
+    "name_en": "10 Ramadan",
+    "latitude": "41801756",
+    "longitude": "35081172",
+    "is_active": true
+  },
+  {
+    "id": 31400,
+    "name_ar": "ابو سلطان",
+    "name_en": "Abo Sultan",
+    "latitude": "28401143",
+    "longitude": "33024172",
+    "is_active": true
+  },
+  {
+    "id": 31500,
+    "name_ar": "السعيديه",
+    "name_en": "ElSaeedia",
+    "latitude": "18208836",
+    "longitude": "59011940",
+    "is_active": true
+  },
+  {
+    "id": 31600,
+    "name_ar": "فايد",
+    "name_en": "Fayed",
+    "latitude": "91704720",
+    "longitude": "17065821",
+    "is_active": true
+  },
+  {
+    "id": 31700,
+    "name_ar": "فايد الجديده",
+    "name_en": "Fayed ElGadida",
+    "latitude": "51903562",
+    "longitude": "21023973",
+    "is_active": true
+  },
+  {
+    "id": 31800,
+    "name_ar": "قمه فايد",
+    "name_en": "Kemmet Fayed",
+    "latitude": "28400432",
+    "longitude": "37093177",
+    "is_active": true
+  },
+  {
+    "id": 31900,
+    "name_ar": "فناره",
+    "name_en": "Fanara",
+    "latitude": "68307027",
+    "longitude": "58025347",
+    "is_active": true
+  },
+  {
+    "id": 32000,
+    "name_ar": "كسفريت",
+    "name_en": "Kasfreet",
+    "latitude": "98904825",
+    "longitude": "48071747",
+    "is_active": true
+  },
+  {
+    "id": 32100,
+    "name_ar": "جنيفه",
+    "name_en": "Genefa",
+    "latitude": "31107735",
+    "longitude": "04026524",
+    "is_active": true
+  },
+  {
+    "id": 32200,
+    "name_ar": "ابو حلب",
+    "name_en": "Abo Halab",
+    "latitude": "01706877",
+    "longitude": "48056972",
+    "is_active": true
+  },
+  {
+    "id": 32300,
+    "name_ar": "كيلو64",
+    "name_en": "Kilo 64",
+    "latitude": "88705811",
+    "longitude": "57018476",
+    "is_active": true
+  },
+  {
+    "id": 32400,
+    "name_ar": "شلوفه",
+    "name_en": "Shloofa",
+    "latitude": "68501719",
+    "longitude": "33075145",
+    "is_active": true
+  },
+  {
+    "id": 32500,
+    "name_ar": "الجناين",
+    "name_en": "ElGanayen",
+    "latitude": "81801155",
+    "longitude": "94070219",
+    "is_active": true
+  },
+  {
+    "id": 32600,
+    "name_ar": "عامر",
+    "name_en": "Amer",
+    "latitude": "11703697",
+    "longitude": "52075475",
+    "is_active": true
+  },
+  {
+    "id": 32700,
+    "name_ar": "السويس",
+    "name_en": "Suez",
+    "latitude": "07909590",
+    "longitude": "57061274",
+    "is_active": true
+  },
+  {
+    "id": 32800,
+    "name_ar": "منيه السباع",
+    "name_en": "Menyet ElSabe",
+    "latitude": "48605443",
+    "longitude": "69062555",
+    "is_active": true
+  },
+  {
+    "id": 32900,
+    "name_ar": "شبلنجه",
+    "name_en": "Shablanga",
+    "latitude": "51500212",
+    "longitude": "25067138",
+    "is_active": true
+  },
+  {
+    "id": 33000,
+    "name_ar": "العزيزيه",
+    "name_en": "ElAzeezia",
+    "latitude": "81509509",
+    "longitude": "11094835",
+    "is_active": true
+  },
+  {
+    "id": 33100,
+    "name_ar": "كوم حلين",
+    "name_en": "Kim Heleen",
+    "latitude": "81706048",
+    "longitude": "36008169",
+    "is_active": true
+  },
+  {
+    "id": 33200,
+    "name_ar": "ميت يزيد",
+    "name_en": "Meet Yazeed",
+    "latitude": "08600357",
+    "longitude": "30095264",
+    "is_active": true
+  },
+  {
+    "id": 33300,
+    "name_ar": "منيه القمح",
+    "name_en": "Menyet ElKamh",
+    "latitude": "58801751",
+    "longitude": "57082357",
+    "is_active": true
+  },
+  {
+    "id": 33400,
+    "name_ar": "الجديده",
+    "name_en": "ElGadida",
+    "latitude": "61804401",
+    "longitude": "02082932",
+    "is_active": true
+  },
+  {
+    "id": 33500,
+    "name_ar": "القراقره",
+    "name_en": "ElKarakra",
+    "latitude": "11401441",
+    "longitude": "47058062",
+    "is_active": true
+  },
+  {
+    "id": 33600,
+    "name_ar": "الزنكلون",
+    "name_en": "ElZenkloon",
+    "latitude": "98205755",
+    "longitude": "46038461",
+    "is_active": true
+  },
+  {
+    "id": 33700,
+    "name_ar": "الشبانات",
+    "name_en": "ElShabanat",
+    "latitude": "18606251",
+    "longitude": "28055757",
+    "is_active": true
+  },
+  {
+    "id": 33800,
+    "name_ar": "صفط الحنه",
+    "name_en": "Saft ElHenna",
+    "latitude": "21002205",
+    "longitude": "87060627",
+    "is_active": true
+  },
+  {
+    "id": 33900,
+    "name_ar": "الصوه",
+    "name_en": "ElSawa",
+    "latitude": "81600140",
+    "longitude": "64030267",
+    "is_active": true
+  },
+  {
+    "id": 34000,
+    "name_ar": "ابو حماد",
+    "name_en": "Abo Hammad",
+    "latitude": "21002942",
+    "longitude": "62091661",
+    "is_active": true
+  },
+  {
+    "id": 34100,
+    "name_ar": "محجر ابو حماد",
+    "name_en": "Mahgar Abo Hammad",
+    "latitude": "48905459",
+    "longitude": "79014368",
+    "is_active": true
+  },
+  {
+    "id": 34200,
+    "name_ar": "التل الكبير",
+    "name_en": "ElTall ElKabeer",
+    "latitude": "28806158",
+    "longitude": "02077950",
+    "is_active": true
+  },
+  {
+    "id": 34300,
+    "name_ar": "البعالوه",
+    "name_en": "ElBawalla",
+    "latitude": "71902807",
+    "longitude": "51072929",
+    "is_active": true
+  },
+  {
+    "id": 34400,
+    "name_ar": "القصاصين",
+    "name_en": "ElKassaseen",
+    "latitude": "61909930",
+    "longitude": "92072260",
+    "is_active": true
+  },
+  {
+    "id": 34500,
+    "name_ar": "المحسمه",
+    "name_en": "ElMassma",
+    "latitude": "28606050",
+    "longitude": "09030170",
+    "is_active": true
+  },
+  {
+    "id": 34600,
+    "name_ar": "الشهيد محمد البغدادي",
+    "name_en": "ElsShaheed M Boghdadt",
+    "latitude": "88805752",
+    "longitude": "81079343",
+    "is_active": true
+  },
+  {
+    "id": 34700,
+    "name_ar": "ابو جريش",
+    "name_en": "Abo Grish",
+    "latitude": "61702705",
+    "longitude": "42005027",
+    "is_active": true
+  },
+  {
+    "id": 34800,
+    "name_ar": "ابو صوير",
+    "name_en": "Abs Sowear",
+    "latitude": "61409330",
+    "longitude": "15080074",
+    "is_active": true
+  },
+  {
+    "id": 34900,
+    "name_ar": "الواصفيه",
+    "name_en": "ElWasfa",
+    "latitude": "08508851",
+    "longitude": "16035778",
+    "is_active": true
+  },
+  {
+    "id": 35000,
+    "name_ar": "ميت حبيش القبليه",
+    "name_en": "Meet Hebesh ElQiblia",
+    "latitude": "08505875",
+    "longitude": "05011368",
+    "is_active": true
+  },
+  {
+    "id": 35100,
+    "name_ar": "شبرا قاص",
+    "name_en": "Shobra Qass",
+    "latitude": "28404978",
+    "longitude": "82002157",
+    "is_active": true
+  },
+  {
+    "id": 35200,
+    "name_ar": "السنطه",
+    "name_en": "ElSonta",
+    "latitude": "90804787",
+    "longitude": "39079534",
+    "is_active": true
+  },
+  {
+    "id": 35300,
+    "name_ar": "اللواء عبد الستار",
+    "name_en": "ElLewaa Abdel Sattar",
+    "latitude": "31703921",
+    "longitude": "12030362",
+    "is_active": true
+  },
+  {
+    "id": 35400,
+    "name_ar": "المنشاه الكبري",
+    "name_en": "ElMonshaa ElKobra",
+    "latitude": "48902179",
+    "longitude": "19040568",
+    "is_active": true
+  },
+  {
+    "id": 35500,
+    "name_ar": "السملاويه",
+    "name_en": "ElSamlawiya",
+    "latitude": "48402271",
+    "longitude": "79004057",
+    "is_active": true
+  },
+  {
+    "id": 35600,
+    "name_ar": "نهطاي",
+    "name_en": "Nahtay",
+    "latitude": "60005086",
+    "longitude": "20067838",
+    "is_active": true
+  },
+  {
+    "id": 35700,
+    "name_ar": "زفتي",
+    "name_en": "Zefta",
+    "latitude": "51103025",
+    "longitude": "24054369",
+    "is_active": true
+  },
+  {
+    "id": 35800,
+    "name_ar": "ميت غمر",
+    "name_en": "Meet Ghamr",
+    "latitude": "98001470",
+    "longitude": "26007666",
+    "is_active": true
+  },
+  {
+    "id": 35900,
+    "name_ar": "كوم النور",
+    "name_en": "Kom ElNoor",
+    "latitude": "78900878",
+    "longitude": "57021954",
+    "is_active": true
+  },
+  {
+    "id": 36000,
+    "name_ar": "دنديط",
+    "name_en": "Dandeet",
+    "latitude": "38509663",
+    "longitude": "58053656",
+    "is_active": true
+  },
+  {
+    "id": 36100,
+    "name_ar": "كفر الوزير",
+    "name_en": "Kafr ElWazir",
+    "latitude": "90609580",
+    "longitude": "15029436",
+    "is_active": true
+  },
+  {
+    "id": 36200,
+    "name_ar": "تفهنا الاشراف",
+    "name_en": "Tafahna ElAshraf",
+    "latitude": "51708721",
+    "longitude": "38030461",
+    "is_active": true
+  },
+  {
+    "id": 36300,
+    "name_ar": "ميت القرشي",
+    "name_en": "Meet ElQorashy",
+    "latitude": "78706868",
+    "longitude": "30009665",
+    "is_active": true
+  },
+  {
+    "id": 36400,
+    "name_ar": "ميت ابو عربي",
+    "name_en": "Meet Abo Araby",
+    "latitude": "88905660",
+    "longitude": "59059057",
+    "is_active": true
+  },
+  {
+    "id": 36500,
+    "name_ar": "ام الزين",
+    "name_en": "Umm AlZein",
+    "latitude": "40903696",
+    "longitude": "03069836",
+    "is_active": true
+  },
+  {
+    "id": 36600,
+    "name_ar": "الحلبي",
+    "name_en": "ElHalabi",
+    "latitude": "51002438",
+    "longitude": "42032066",
+    "is_active": true
+  },
+  {
+    "id": 36700,
+    "name_ar": "النخاس",
+    "name_en": "ElNakhass",
+    "latitude": "28102268",
+    "longitude": "45071260",
+    "is_active": true
+  },
+  {
+    "id": 36800,
+    "name_ar": "كفر الاشراف",
+    "name_en": "Kafr ElAshraf",
+    "latitude": "28601065",
+    "longitude": "43084355",
+    "is_active": true
+  },
+  {
+    "id": 36900,
+    "name_ar": "شيبه النكاريه",
+    "name_en": "Shaybet ElNakaria",
+    "latitude": "00508399",
+    "longitude": "03083134",
+    "is_active": true
+  },
+  {
+    "id": 37000,
+    "name_ar": "جامعه الزقازيق",
+    "name_en": "Zagazig University",
+    "latitude": "20109893",
+    "longitude": "06038030",
+    "is_active": true
+  },
+  {
+    "id": 37100,
+    "name_ar": "وروره",
+    "name_en": "Warorah",
+    "latitude": "71606041",
+    "longitude": "16075662",
+    "is_active": true
+  },
+  {
+    "id": 37200,
+    "name_ar": "دملو",
+    "name_en": "Damlo",
+    "latitude": "38200557",
+    "longitude": "19032863",
+    "is_active": true
+  },
+  {
+    "id": 37300,
+    "name_ar": "ميت الحوفيين",
+    "name_en": "Meet ElHofyeen",
+    "latitude": "38002050",
+    "longitude": "62069851",
+    "is_active": true
+  },
+  {
+    "id": 37400,
+    "name_ar": "ميت بره",
+    "name_en": "Meet Barra",
+    "latitude": "51503200",
+    "longitude": "21019733",
+    "is_active": true
+  },
+  {
+    "id": 37500,
+    "name_ar": "بقسا",
+    "name_en": "Baqsa",
+    "latitude": "91009335",
+    "longitude": "29052166",
+    "is_active": true
+  },
+  {
+    "id": 37600,
+    "name_ar": "شبرا بخوم",
+    "name_en": "Shobra Bakhoom",
+    "latitude": "08007256",
+    "longitude": "27000368",
+    "is_active": true
+  },
+  {
+    "id": 37700,
+    "name_ar": "تفهناالعزب",
+    "name_en": "Tafhna ElAzab",
+    "latitude": "88209657",
+    "longitude": "60015451",
+    "is_active": true
+  },
+  {
+    "id": 37800,
+    "name_ar": "ميت الحارون",
+    "name_en": "Meet ElHaron",
+    "latitude": "40306898",
+    "longitude": "20096331",
+    "is_active": true
+  },
+  {
+    "id": 37900,
+    "name_ar": "سعد باشا زغلول",
+    "name_en": "Saad Pasha Zaghloul",
+    "latitude": "81601438",
+    "longitude": "27083363",
+    "is_active": true
+  },
+  {
+    "id": 38000,
+    "name_ar": "اسماعيل باشا صدقي",
+    "name_en": "Ismail Pasha Sidqi",
+    "latitude": "71908924",
+    "longitude": "23029462",
+    "is_active": true
+  },
+  {
+    "id": 38100,
+    "name_ar": "منصور باشا",
+    "name_en": "Mansour Pasha",
+    "latitude": "68909564",
+    "longitude": "20085461",
+    "is_active": true
+  },
+  {
+    "id": 38200,
+    "name_ar": "سجين",
+    "name_en": "Sageen",
+    "latitude": "48500492",
+    "longitude": "82012359",
+    "is_active": true
+  },
+  {
+    "id": 38300,
+    "name_ar": "ابشواي",
+    "name_en": "Ebshiway",
+    "latitude": "70504367",
+    "longitude": "49004738",
+    "is_active": true
+  },
+  {
+    "id": 38400,
+    "name_ar": "الابراهيميه",
+    "name_en": "ElIbrahemia",
+    "latitude": "31901201",
+    "longitude": "90024855",
+    "is_active": true
+  },
+  {
+    "id": 38500,
+    "name_ar": "قطور",
+    "name_en": "Qutour",
+    "latitude": "88906690",
+    "longitude": "95097554",
+    "is_active": true
+  },
+  {
+    "id": 38600,
+    "name_ar": "حوين",
+    "name_en": "Hewain",
+    "latitude": "68009096",
+    "longitude": "90011651",
+    "is_active": true
+  },
+  {
+    "id": 38700,
+    "name_ar": "الشين",
+    "name_en": "ElShin",
+    "latitude": "70106654",
+    "longitude": "59030832",
+    "is_active": true
+  },
+  {
+    "id": 38800,
+    "name_ar": "عزبه جوده",
+    "name_en": "Ezbet Goda",
+    "latitude": "10303197",
+    "longitude": "81085654",
+    "is_active": true
+  },
+  {
+    "id": 38900,
+    "name_ar": "قلين البلد",
+    "name_en": "Qaleen ElBalas",
+    "latitude": "29204402",
+    "longitude": "88050553",
+    "is_active": true
+  },
+  {
+    "id": 39000,
+    "name_ar": "قلين",
+    "name_en": "Qaleen",
+    "latitude": "09605600",
+    "longitude": "82003458",
+    "is_active": true
+  },
+  {
+    "id": 39100,
+    "name_ar": "البكاتوش",
+    "name_en": "Bakatosh",
+    "latitude": "79406205",
+    "longitude": "05000861",
+    "is_active": true
+  },
+  {
+    "id": 39200,
+    "name_ar": "كفر الجزاير",
+    "name_en": "Kfar ElGazayer",
+    "latitude": "80509643",
+    "longitude": "74026136",
+    "is_active": true
+  },
+  {
+    "id": 39300,
+    "name_ar": "شباس",
+    "name_en": "Shabas",
+    "latitude": "70606689",
+    "longitude": "77082357",
+    "is_active": true
+  },
+  {
+    "id": 39400,
+    "name_ar": "المدينه",
+    "name_en": "ElMadina",
+    "latitude": "39300111",
+    "longitude": "73082156",
+    "is_active": true
+  },
+  {
+    "id": 39500,
+    "name_ar": "جماجمون",
+    "name_en": "Gamagoon",
+    "latitude": "59101111",
+    "longitude": "11093867",
+    "is_active": true
+  },
+  {
+    "id": 39600,
+    "name_ar": "دسوق",
+    "name_en": "Desouq",
+    "latitude": "70804349",
+    "longitude": "86095330",
+    "is_active": true
+  },
+  {
+    "id": 39700,
+    "name_ar": "الرحمانيه",
+    "name_en": "ElRahmaniyah",
+    "latitude": "20603781",
+    "longitude": "68084155",
+    "is_active": true
+  },
+  {
+    "id": 39800,
+    "name_ar": "الفتح",
+    "name_en": "ElFath",
+    "latitude": "39000517",
+    "longitude": "69066051",
+    "is_active": true
+  },
+  {
+    "id": 39900,
+    "name_ar": "الخزان",
+    "name_en": "ElKhazan",
+    "latitude": "89308909",
+    "longitude": "26070966",
+    "is_active": true
+  },
+  {
+    "id": 40000,
+    "name_ar": "الهواريه",
+    "name_en": "ElHawareh",
+    "latitude": "99407202",
+    "longitude": "53072654",
+    "is_active": true
+  },
+  {
+    "id": 40100,
+    "name_ar": "سنهور",
+    "name_en": "Sinhoor",
+    "latitude": "99806704",
+    "longitude": "39082267",
+    "is_active": true
+  },
+  {
+    "id": 40200,
+    "name_ar": "نفره",
+    "name_en": "Nafra",
+    "latitude": "40402752",
+    "longitude": "91098436",
+    "is_active": true
+  },
+  {
+    "id": 40300,
+    "name_ar": "كفر بني هلال",
+    "name_en": "Kafr Bani Hilal",
+    "latitude": "90101796",
+    "longitude": "42045954",
+    "is_active": true
+  },
+  {
+    "id": 40400,
+    "name_ar": "شلقان",
+    "name_en": "Shalakan",
+    "latitude": "18508517",
+    "longitude": "19005764",
+    "is_active": true
+  },
+  {
+    "id": 40500,
+    "name_ar": "القناطر الخيريه القديمه",
+    "name_en": "ElQanater ELKhayria ElKadima",
+    "latitude": "58309513",
+    "longitude": "71013454",
+    "is_active": true
+  },
+  {
+    "id": 40600,
+    "name_ar": "القناطر الخيريه",
+    "name_en": "ElQanater ElKhayria",
+    "latitude": "01009839",
+    "longitude": "38061337",
+    "is_active": true
+  },
+  {
+    "id": 40700,
+    "name_ar": "دروه",
+    "name_en": "Darwa",
+    "latitude": "71203173",
+    "longitude": "04040867",
+    "is_active": true
+  },
+  {
+    "id": 40800,
+    "name_ar": "كفر صراوه",
+    "name_en": "Kafr Sarawa",
+    "latitude": "28604421",
+    "longitude": "07092864",
+    "is_active": true
+  },
+  {
+    "id": 40900,
+    "name_ar": "شطانوف",
+    "name_en": "Shatanoof",
+    "latitude": "38704823",
+    "longitude": "89077053",
+    "is_active": true
+  },
+  {
+    "id": 41000,
+    "name_ar": "الحلواصي البلد",
+    "name_en": "ElHalwasy ElBalad",
+    "latitude": "18705722",
+    "longitude": "82056253",
+    "is_active": true
+  },
+  {
+    "id": 41100,
+    "name_ar": "الحلواصي",
+    "name_en": "ElHalwasy",
+    "latitude": "81801334",
+    "longitude": "48064430",
+    "is_active": true
+  },
+  {
+    "id": 41200,
+    "name_ar": "محله سبك",
+    "name_en": "Mahallet Sobk",
+    "latitude": "21708767",
+    "longitude": "09008066",
+    "is_active": true
+  },
+  {
+    "id": 41300,
+    "name_ar": "اشمون",
+    "name_en": "Ashmoon",
+    "latitude": "98609921",
+    "longitude": "90090752",
+    "is_active": true
+  },
+  {
+    "id": 41400,
+    "name_ar": "سمادون",
+    "name_en": "Samadoon",
+    "latitude": "48003535",
+    "longitude": "94039256",
+    "is_active": true
+  },
+  {
+    "id": 41500,
+    "name_ar": "جامع بدر",
+    "name_en": "Game Badr",
+    "latitude": "61502621",
+    "longitude": "51050433",
+    "is_active": true
+  },
+  {
+    "id": 41600,
+    "name_ar": "رمله الانجب",
+    "name_en": "Ramlet ElAngab",
+    "latitude": "11109654",
+    "longitude": "92064258",
+    "is_active": true
+  },
+  {
+    "id": 41700,
+    "name_ar": "شما",
+    "name_en": "Shama",
+    "latitude": "78708736",
+    "longitude": "91018356",
+    "is_active": true
+  },
+  {
+    "id": 41800,
+    "name_ar": "كمشوش",
+    "name_en": "Kamshosh",
+    "latitude": "98101640",
+    "longitude": "90074559",
+    "is_active": true
+  },
+  {
+    "id": 41900,
+    "name_ar": "كفر السنابسه",
+    "name_en": "Kafr ElSanabsa",
+    "latitude": "81003410",
+    "longitude": "55026634",
+    "is_active": true
+  },
+  {
+    "id": 42000,
+    "name_ar": "منوف",
+    "name_en": "Menouf",
+    "latitude": "71601715",
+    "longitude": "52004439",
+    "is_active": true
+  },
+  {
+    "id": 42100,
+    "name_ar": "الحامول",
+    "name_en": "ElHamool",
+    "latitude": "91407647",
+    "longitude": "95045653",
+    "is_active": true
+  },
+  {
+    "id": 42200,
+    "name_ar": "شنوان",
+    "name_en": "Shanwan",
+    "latitude": "98609847",
+    "longitude": "03033064",
+    "is_active": true
+  },
+  {
+    "id": 42300,
+    "name_ar": "شبين الكوم",
+    "name_en": "Shibin ElKoom",
+    "latitude": "38805357",
+    "longitude": "87051755",
+    "is_active": true
+  },
+  {
+    "id": 42400,
+    "name_ar": "شبين الكوم الجديده",
+    "name_en": "Shibin ElKoom ElGadida",
+    "latitude": "51402502",
+    "longitude": "43053738",
+    "is_active": true
+  },
+  {
+    "id": 42500,
+    "name_ar": "طنبدي",
+    "name_en": "Tanbdy",
+    "latitude": "11607533",
+    "longitude": "90054757",
+    "is_active": true
+  },
+  {
+    "id": 42600,
+    "name_ar": "كفر البتانون",
+    "name_en": "Kafr ElBatanoon",
+    "latitude": "18300166",
+    "longitude": "90058759",
+    "is_active": true
+  },
+  {
+    "id": 42700,
+    "name_ar": "البتانون",
+    "name_en": "ElBatanoon",
+    "latitude": "68701561",
+    "longitude": "93055153",
+    "is_active": true
+  },
+  {
+    "id": 42800,
+    "name_ar": "كفر طبلوها",
+    "name_en": "Kafr Tabloha",
+    "latitude": "60003294",
+    "longitude": "59011335",
+    "is_active": true
+  },
+  {
+    "id": 42900,
+    "name_ar": "تلا",
+    "name_en": "Tala",
+    "latitude": "01408424",
+    "longitude": "91066352",
+    "is_active": true
+  },
+  {
+    "id": 43000,
+    "name_ar": "كفر سليم",
+    "name_en": "Kafr Silim",
+    "latitude": "31902628",
+    "longitude": "90046659",
+    "is_active": true
+  },
+  {
+    "id": 43100,
+    "name_ar": "كفر بطا",
+    "name_en": "Kafr Bata",
+    "latitude": "38106645",
+    "longitude": "16050369",
+    "is_active": true
+  },
+  {
+    "id": 43200,
+    "name_ar": "اسطنها",
+    "name_en": "Astenha",
+    "latitude": "78805342",
+    "longitude": "79001650",
+    "is_active": true
+  },
+  {
+    "id": 43300,
+    "name_ar": "ميت الواسطي",
+    "name_en": "Meet ElWasta",
+    "latitude": "21103311",
+    "longitude": "39004938",
+    "is_active": true
+  },
+  {
+    "id": 43400,
+    "name_ar": "سبك الضحاك",
+    "name_en": "Sobk ElDahhak",
+    "latitude": "61001250",
+    "longitude": "07002664",
+    "is_active": true
+  },
+  {
+    "id": 43500,
+    "name_ar": "الباجور",
+    "name_en": "ElBajor",
+    "latitude": "48003640",
+    "longitude": "08073360",
+    "is_active": true
+  },
+  {
+    "id": 43600,
+    "name_ar": "جروان",
+    "name_en": "Gerwan",
+    "latitude": "48703540",
+    "longitude": "88070653",
+    "is_active": true
+  },
+  {
+    "id": 43700,
+    "name_ar": "كفر شبرا زنجي",
+    "name_en": "Kafr Shobra Zengy",
+    "latitude": "51004916",
+    "longitude": "42024831",
+    "is_active": true
+  },
+  {
+    "id": 43800,
+    "name_ar": "سرس الليان",
+    "name_en": "Sers ElLayan",
+    "latitude": "91700752",
+    "longitude": "91037651",
+    "is_active": true
+  },
+  {
+    "id": 43900,
+    "name_ar": "بشتيل",
+    "name_en": "Bashteel",
+    "latitude": "18207207",
+    "longitude": "19044869",
+    "is_active": true
+  },
+  {
+    "id": 44000,
+    "name_ar": "بشتيل البلد",
+    "name_en": "Bashteel ELBalad",
+    "latitude": "68308703",
+    "longitude": "17031862",
+    "is_active": true
+  },
+  {
+    "id": 44100,
+    "name_ar": "الكوم الاحمر",
+    "name_en": "ElKom ELAhmar",
+    "latitude": "88300012",
+    "longitude": "67060954",
+    "is_active": true
+  },
+  {
+    "id": 44200,
+    "name_ar": "اوسيم",
+    "name_en": "Osim",
+    "latitude": "91404246",
+    "longitude": "36076130",
+    "is_active": true
+  },
+  {
+    "id": 44300,
+    "name_ar": "برطس",
+    "name_en": "Bertis",
+    "latitude": "71900288",
+    "longitude": "14030366",
+    "is_active": true
+  },
+  {
+    "id": 44400,
+    "name_ar": "الجلاتمه",
+    "name_en": "ElGalatma",
+    "latitude": "48207314",
+    "longitude": "16054162",
+    "is_active": true
+  },
+  {
+    "id": 44500,
+    "name_ar": "المناشي",
+    "name_en": "ElManashy",
+    "latitude": "88207618",
+    "longitude": "74087751",
+    "is_active": true
+  },
+  {
+    "id": 44600,
+    "name_ar": "ذات الكوم",
+    "name_en": "Zat ElKom",
+    "latitude": "51600048",
+    "longitude": "48014136",
+    "is_active": true
+  },
+  {
+    "id": 44700,
+    "name_ar": "نكلا",
+    "name_en": "Nakla",
+    "latitude": "61008074",
+    "longitude": "08014467",
+    "is_active": true
+  },
+  {
+    "id": 44800,
+    "name_ar": "برقاش",
+    "name_en": "BerKash",
+    "latitude": "98306210",
+    "longitude": "04051268",
+    "is_active": true
+  },
+  {
+    "id": 44900,
+    "name_ar": "عزبه شريف",
+    "name_en": "Ezbet Sherif",
+    "latitude": "48309515",
+    "longitude": "81089857",
+    "is_active": true
+  },
+  {
+    "id": 45000,
+    "name_ar": "القطا",
+    "name_en": "ElQata",
+    "latitude": "78200920",
+    "longitude": "91006056",
+    "is_active": true
+  },
+  {
+    "id": 45100,
+    "name_ar": "القطا البلد",
+    "name_en": "ElQata ElBalad",
+    "latitude": "81904839",
+    "longitude": "51064238",
+    "is_active": true
+  },
+  {
+    "id": 45200,
+    "name_ar": "الجزيره الوسطانيه",
+    "name_en": "ElJazeera ElWastania",
+    "latitude": "91601378",
+    "longitude": "99014452",
+    "is_active": true
+  },
+  {
+    "id": 45300,
+    "name_ar": "ابو غالب",
+    "name_en": "Abo Ghalib",
+    "latitude": "28907228",
+    "longitude": "98080052",
+    "is_active": true
+  },
+  {
+    "id": 45400,
+    "name_ar": "وردان",
+    "name_en": "Werdan",
+    "latitude": "18209829",
+    "longitude": "97080952",
+    "is_active": true
+  },
+  {
+    "id": 45500,
+    "name_ar": "بني سلامه",
+    "name_en": "Bani Slama",
+    "latitude": "01306629",
+    "longitude": "67059434",
+    "is_active": true
+  },
+  {
+    "id": 45530,
+    "name_ar": "التاجي",
+    "name_en": "ElTagi",
+    "latitude": "38503937",
+    "longitude": "03047665",
+    "is_active": false
+  },
+  {
+    "id": 45560,
+    "name_ar": "ابو حجازي",
+    "name_en": "AboHegazi",
+    "latitude": "68701781",
+    "longitude": "89025157",
+    "is_active": false
+  },
+  {
+    "id": 45600,
+    "name_ar": "الخطاطبه",
+    "name_en": "ElKhatatba",
+    "latitude": "01700469",
+    "longitude": "84095055",
+    "is_active": true
+  },
+  {
+    "id": 45650,
+    "name_ar": "اجيال",
+    "name_en": "Ajial",
+    "latitude": "28006130",
+    "longitude": "82017251",
+    "is_active": false
+  },
+  {
+    "id": 45700,
+    "name_ar": "الاخماس",
+    "name_en": "ElAkhmas",
+    "latitude": "18400746",
+    "longitude": "86045256",
+    "is_active": true
+  },
+  {
+    "id": 45800,
+    "name_ar": "الطرانه",
+    "name_en": "ElTarana",
+    "latitude": "58702041",
+    "longitude": "03049560",
+    "is_active": true
+  },
+  {
+    "id": 45820,
+    "name_ar": "نفرع الطرانه",
+    "name_en": "ElTrana Joint",
+    "latitude": "31402856",
+    "longitude": "86085157",
+    "is_active": false
+  },
+  {
+    "id": 45840,
+    "name_ar": "تفرع عزبه صقر",
+    "name_en": "Ezbet Saqr Joint",
+    "latitude": "38204141",
+    "longitude": "07022565",
+    "is_active": false
+  },
+  {
+    "id": 45860,
+    "name_ar": "عزبه صقر",
+    "name_en": "Ezbet Saqr",
+    "latitude": "91100154",
+    "longitude": "88083157",
+    "is_active": false
+  },
+  {
+    "id": 45880,
+    "name_ar": "عزبه العادلي",
+    "name_en": "Ezbet ElAdly",
+    "latitude": "78105845",
+    "longitude": "04052565",
+    "is_active": false
+  },
+  {
+    "id": 45900,
+    "name_ar": "كفر داود",
+    "name_en": "Kafr Dawood",
+    "latitude": "71401910",
+    "longitude": "68062534",
+    "is_active": true
+  },
+  {
+    "id": 46000,
+    "name_ar": "البريجات",
+    "name_en": "ElBeraygat",
+    "latitude": "31808003",
+    "longitude": "63060630",
+    "is_active": true
+  },
+  {
+    "id": 46100,
+    "name_ar": "مديريه التحرير",
+    "name_en": "Moderyet ElTahrir",
+    "latitude": "21301149",
+    "longitude": "77019956",
+    "is_active": true
+  },
+  {
+    "id": 46200,
+    "name_ar": "ابو الخاوي",
+    "name_en": "Abio ELKhawy",
+    "latitude": "68308651",
+    "longitude": "72005952",
+    "is_active": true
+  },
+  {
+    "id": 46300,
+    "name_ar": "الطيريه",
+    "name_en": "ElTayria",
+    "latitude": "88502867",
+    "longitude": "19008067",
+    "is_active": true
+  },
+  {
+    "id": 46400,
+    "name_ar": "الطيريه البلد",
+    "name_en": "ElTayria ELBald",
+    "latitude": "50803290",
+    "longitude": "77045032",
+    "is_active": true
+  },
+  {
+    "id": 46500,
+    "name_ar": "الاتحاد",
+    "name_en": "ElEttehad",
+    "latitude": "51809125",
+    "longitude": "78043552",
+    "is_active": true
+  },
+  {
+    "id": 46600,
+    "name_ar": "منشاه ابو ريه",
+    "name_en": "Manshyet Abo Raya",
+    "latitude": "58907162",
+    "longitude": "72035558",
+    "is_active": true
+  },
+  {
+    "id": 46700,
+    "name_ar": "واقد",
+    "name_en": "Waqed",
+    "latitude": "58609167",
+    "longitude": "11022463",
+    "is_active": true
+  },
+  {
+    "id": 46800,
+    "name_ar": "كفر بولين",
+    "name_en": "Kafr Boleen",
+    "latitude": "20807183",
+    "longitude": "76000539",
+    "is_active": true
+  },
+  {
+    "id": 46900,
+    "name_ar": "كوم حماده",
+    "name_en": "Kom Hamada",
+    "latitude": "81009710",
+    "longitude": "60083858",
+    "is_active": true
+  },
+  {
+    "id": 47000,
+    "name_ar": "النقيدي",
+    "name_en": "ElNaqedy",
+    "latitude": "81206617",
+    "longitude": "61015850",
+    "is_active": true
+  },
+  {
+    "id": 47100,
+    "name_ar": "صفط العنب",
+    "name_en": "Saft ElEnab",
+    "latitude": "68501687",
+    "longitude": "61025858",
+    "is_active": true
+  },
+  {
+    "id": 47200,
+    "name_ar": "قليشان",
+    "name_en": "Qlishan",
+    "latitude": "68603083",
+    "longitude": "29033060",
+    "is_active": true
+  },
+  {
+    "id": 47300,
+    "name_ar": "المجديه",
+    "name_en": "ElMajdia",
+    "latitude": "80200377",
+    "longitude": "89017135",
+    "is_active": true
+  },
+  {
+    "id": 47400,
+    "name_ar": "الغابه",
+    "name_en": "ElGhaba",
+    "latitude": "71601021",
+    "longitude": "76022169",
+    "is_active": true
+  },
+  {
+    "id": 47500,
+    "name_ar": "خلف الله",
+    "name_en": "Khalaf Allah",
+    "latitude": "28704979",
+    "longitude": "70060367",
+    "is_active": true
+  },
+  {
+    "id": 47600,
+    "name_ar": "الفدادنه",
+    "name_en": "ElFadadna",
+    "latitude": "48104374",
+    "longitude": "18000359",
+    "is_active": true
+  },
+  {
+    "id": 47700,
+    "name_ar": "البيروم",
+    "name_en": "ElBeyroom",
+    "latitude": "40403488",
+    "longitude": "76008128",
+    "is_active": true
+  },
+  {
+    "id": 47800,
+    "name_ar": "فاقوس",
+    "name_en": "Fagus",
+    "latitude": "11003822",
+    "longitude": "72059869",
+    "is_active": true
+  },
+  {
+    "id": 47900,
+    "name_ar": "جهينه",
+    "name_en": "Juhayna",
+    "latitude": "48102774",
+    "longitude": "82045169",
+    "is_active": true
+  },
+  {
+    "id": 48000,
+    "name_ar": "كفر الحاج عمر",
+    "name_en": "Kafr Haj Omar",
+    "latitude": "28203379",
+    "longitude": "89035466",
+    "is_active": true
+  },
+  {
+    "id": 48100,
+    "name_ar": "اكياد",
+    "name_en": "Akyad",
+    "latitude": "28504777",
+    "longitude": "00049050",
+    "is_active": true
+  },
+  {
+    "id": 48200,
+    "name_ar": "الدراكه",
+    "name_en": "ElDaraka",
+    "latitude": "30403281",
+    "longitude": "57081824",
+    "is_active": true
+  },
+  {
+    "id": 48300,
+    "name_ar": "اباظه",
+    "name_en": "Abaza",
+    "latitude": "31600220",
+    "longitude": "98009167",
+    "is_active": true
+  },
+  {
+    "id": 48400,
+    "name_ar": "العزازي",
+    "name_en": "ElAzazi",
+    "latitude": "28006873",
+    "longitude": "93024461",
+    "is_active": true
+  },
+  {
+    "id": 48500,
+    "name_ar": "الكبايشه",
+    "name_en": "Elkabishia",
+    "latitude": "28907571",
+    "longitude": "90053042",
+    "is_active": true
+  },
+  {
+    "id": 48600,
+    "name_ar": "الصالحيه",
+    "name_en": "ElSalehia",
+    "latitude": "10100083",
+    "longitude": "48016827",
+    "is_active": true
+  },
+  {
+    "id": 48700,
+    "name_ar": "غزاله عبدون",
+    "name_en": "Ghazalet Abdoon",
+    "latitude": "11301420",
+    "longitude": "81087169",
+    "is_active": true
+  },
+  {
+    "id": 48800,
+    "name_ar": "اشكر",
+    "name_en": "Ashkor",
+    "latitude": "78305576",
+    "longitude": "88065363",
+    "is_active": true
+  },
+  {
+    "id": 48900,
+    "name_ar": "السعادنه",
+    "name_en": "ElSaadna",
+    "latitude": "88306978",
+    "longitude": "07041355",
+    "is_active": true
+  },
+  {
+    "id": 49000,
+    "name_ar": "الشهيد عبد المنعم رياض",
+    "name_en": "ElShaheed Abdel Menem Reyad",
+    "latitude": "18303674",
+    "longitude": "06079650",
+    "is_active": true
+  },
+  {
+    "id": 49100,
+    "name_ar": "السماعنه",
+    "name_en": "ElSamana",
+    "latitude": "30609177",
+    "longitude": "65084125",
+    "is_active": true
+  },
+  {
+    "id": 49200,
+    "name_ar": "23يوليو",
+    "name_en": "23 July",
+    "latitude": "21009470",
+    "longitude": "35035362",
+    "is_active": true
+  },
+  {
+    "id": 49300,
+    "name_ar": "القلج البلد",
+    "name_en": "ElQalag Elbalad",
+    "latitude": "68007011",
+    "longitude": "33083461",
+    "is_active": true
+  },
+  {
+    "id": 49400,
+    "name_ar": "القلج",
+    "name_en": "ElQalaag",
+    "latitude": "58608417",
+    "longitude": "56061258",
+    "is_active": true
+  },
+  {
+    "id": 49500,
+    "name_ar": "منشيه الجبل الاصفر",
+    "name_en": "Manshyet ElGabal ElAsfar",
+    "latitude": "61208537",
+    "longitude": "13024233",
+    "is_active": true
+  },
+  {
+    "id": 49600,
+    "name_ar": "الجبل الاصفر",
+    "name_en": "ElGabal ElAsfar",
+    "latitude": "41105478",
+    "longitude": "36038569",
+    "is_active": true
+  },
+  {
+    "id": 49700,
+    "name_ar": "الخانكه",
+    "name_en": "ElKhanka",
+    "latitude": "08602025",
+    "longitude": "33008669",
+    "is_active": true
+  },
+  {
+    "id": 49800,
+    "name_ar": "الطيران",
+    "name_en": "ElTayaran",
+    "latitude": "18004028",
+    "longitude": "53049253",
+    "is_active": true
+  },
+  {
+    "id": 49900,
+    "name_ar": "ابو زعبل البلد",
+    "name_en": "Abo Zabal Elbalad",
+    "latitude": "01003636",
+    "longitude": "13047238",
+    "is_active": true
+  },
+  {
+    "id": 50000,
+    "name_ar": "محاجر ابو زعبل",
+    "name_en": "Mahager Abo Zabal",
+    "latitude": "38107820",
+    "longitude": "58064253",
+    "is_active": true
+  },
+  {
+    "id": 50100,
+    "name_ar": "العليقات",
+    "name_en": "AlOlaykat",
+    "latitude": "51609326",
+    "longitude": "14026335",
+    "is_active": true
+  },
+  {
+    "id": 50200,
+    "name_ar": "الشوبك",
+    "name_en": "ElShobak",
+    "latitude": "31105063",
+    "longitude": "35024261",
+    "is_active": true
+  },
+  {
+    "id": 50300,
+    "name_ar": "منيه شبين",
+    "name_en": "Menyet Shibin",
+    "latitude": "28601339",
+    "longitude": "31078260",
+    "is_active": true
+  },
+  {
+    "id": 50400,
+    "name_ar": "الظاهريه",
+    "name_en": "ElZaheria",
+    "latitude": "89002324",
+    "longitude": "93059167",
+    "is_active": false
+  },
+  {
+    "id": 50500,
+    "name_ar": "السوق",
+    "name_en": "ElSouq",
+    "latitude": "60804036",
+    "longitude": "55099041",
+    "is_active": false
+  },
+  {
+    "id": 50600,
+    "name_ar": "غبريال",
+    "name_en": "Ghebrial",
+    "latitude": "00002178",
+    "longitude": "94061648",
+    "is_active": false
+  },
+  {
+    "id": 50700,
+    "name_ar": "الرمل",
+    "name_en": "ElRaml",
+    "latitude": "39004728",
+    "longitude": "93069747",
+    "is_active": false
+  },
+  {
+    "id": 50800,
+    "name_ar": "النقراشي باشا",
+    "name_en": "ElNokrashi Pasha",
+    "latitude": "89004027",
+    "longitude": "99000066",
+    "is_active": false
+  },
+  {
+    "id": 50900,
+    "name_ar": "سيدي بشر",
+    "name_en": "Sidi Beshr",
+    "latitude": "20602139",
+    "longitude": "40055848",
+    "is_active": false
+  },
+  {
+    "id": 51000,
+    "name_ar": "العصافره",
+    "name_en": "ElAsafra",
+    "latitude": "80000832",
+    "longitude": "47023746",
+    "is_active": false
+  },
+  {
+    "id": 51100,
+    "name_ar": "المندره",
+    "name_en": "ElMandra",
+    "latitude": "00308961",
+    "longitude": "05047057",
+    "is_active": false
+  },
+  {
+    "id": 51200,
+    "name_ar": "المنتزه",
+    "name_en": "ElMontazah",
+    "latitude": "29908729",
+    "longitude": "04019255",
+    "is_active": false
+  },
+  {
+    "id": 51300,
+    "name_ar": "الاصلاح",
+    "name_en": "ElEslah",
+    "latitude": "59808622",
+    "longitude": "86097360",
+    "is_active": false
+  },
+  {
+    "id": 51400,
+    "name_ar": "المعموره",
+    "name_en": "ElMamora",
+    "latitude": "50608126",
+    "longitude": "46055248",
+    "is_active": true
+  },
+  {
+    "id": 51500,
+    "name_ar": "الكليه البحريه",
+    "name_en": "ElKolya ElBahria",
+    "latitude": "50806868",
+    "longitude": "07078656",
+    "is_active": true
+  },
+  {
+    "id": 51600,
+    "name_ar": "الطابيه",
+    "name_en": "ElTalebia",
+    "latitude": "99707127",
+    "longitude": "08023856",
+    "is_active": true
+  },
+  {
+    "id": 51700,
+    "name_ar": "سماد ابو قير",
+    "name_en": "Semad Abo Qeer",
+    "latitude": "09507222",
+    "longitude": "73019962",
+    "is_active": true
+  },
+  {
+    "id": 51800,
+    "name_ar": "الطرح",
+    "name_en": "ElTarh",
+    "latitude": "20001538",
+    "longitude": "36037548",
+    "is_active": true
+  },
+  {
+    "id": 51900,
+    "name_ar": "المعديه",
+    "name_en": "ElMaadia",
+    "latitude": "10509463",
+    "longitude": "16057654",
+    "is_active": true
+  },
+  {
+    "id": 52000,
+    "name_ar": "الابعديه",
+    "name_en": "ElAbadia",
+    "latitude": "30309863",
+    "longitude": "13082955",
+    "is_active": true
+  },
+  {
+    "id": 52100,
+    "name_ar": "بحيره ادكو",
+    "name_en": "Bohayret Edku",
+    "latitude": "19207822",
+    "longitude": "22008352",
+    "is_active": true
+  },
+  {
+    "id": 52200,
+    "name_ar": "الدمياطي",
+    "name_en": "ElDamietty",
+    "latitude": "79707823",
+    "longitude": "65005363",
+    "is_active": true
+  },
+  {
+    "id": 52300,
+    "name_ar": "ادكو",
+    "name_en": "Edku",
+    "latitude": "10308428",
+    "longitude": "10064743",
+    "is_active": true
+  },
+  {
+    "id": 52400,
+    "name_ar": "مياح",
+    "name_en": "Meyah",
+    "latitude": "20305367",
+    "longitude": "30032253",
+    "is_active": true
+  },
+  {
+    "id": 52500,
+    "name_ar": "منشيه الامل",
+    "name_en": "Mansheyet ElAml",
+    "latitude": "39401237",
+    "longitude": "33022655",
+    "is_active": true
+  },
+  {
+    "id": 52550,
+    "name_ar": "المشتل",
+    "name_en": "ElMashtal",
+    "latitude": "09602336",
+    "longitude": "43046966",
+    "is_active": true
+  },
+  {
+    "id": 52600,
+    "name_ar": "البصيلي",
+    "name_en": "ElBosaily",
+    "latitude": "29903232",
+    "longitude": "45079761",
+    "is_active": true
+  },
+  {
+    "id": 52700,
+    "name_ar": "الزراعه",
+    "name_en": "ElZeraa",
+    "latitude": "60308015",
+    "longitude": "09073743",
+    "is_active": true
+  },
+  {
+    "id": 52800,
+    "name_ar": "برج رشيد",
+    "name_en": "Borg Rasheed",
+    "latitude": "60503452",
+    "longitude": "33023955",
+    "is_active": true
+  },
+  {
+    "id": 52900,
+    "name_ar": "رشيد",
+    "name_en": "Rasheed",
+    "latitude": "99600043",
+    "longitude": "49099155",
+    "is_active": true
+  },
+  {
+    "id": 53000,
+    "name_ar": "الحماد",
+    "name_en": "ElHammad",
+    "latitude": "89602839",
+    "longitude": "49047357",
+    "is_active": true
+  },
+  {
+    "id": 53050,
+    "name_ar": "الشماسمه",
+    "name_en": "AlShamasma",
+    "latitude": "39202735",
+    "longitude": "48096162",
+    "is_active": true
+  },
+  {
+    "id": 53100,
+    "name_ar": "محله الامير",
+    "name_en": "Mahallet ElAmir",
+    "latitude": "09902130",
+    "longitude": "47047066",
+    "is_active": true
+  },
+  {
+    "id": 53200,
+    "name_ar": "تقاطع ادفينا",
+    "name_en": "Taqato Edfina",
+    "latitude": "70607728",
+    "longitude": "97000938",
+    "is_active": true
+  },
+  {
+    "id": 53300,
+    "name_ar": "ادفينا الجديده",
+    "name_en": "Edfina ElGadida",
+    "latitude": "00607064",
+    "longitude": "57049055",
+    "is_active": true
+  },
+  {
+    "id": 53400,
+    "name_ar": "مطوبس",
+    "name_en": "Motobas",
+    "latitude": "69908328",
+    "longitude": "52052252",
+    "is_active": true
+  },
+  {
+    "id": 53500,
+    "name_ar": "الخيريه",
+    "name_en": "ElKhayria",
+    "latitude": "39208324",
+    "longitude": "36018261",
+    "is_active": true
+  },
+  {
+    "id": 53600,
+    "name_ar": "السعاده",
+    "name_en": "ElSaada",
+    "latitude": "90309721",
+    "longitude": "81086931",
+    "is_active": true
+  },
+  {
+    "id": 53700,
+    "name_ar": "الدوايده",
+    "name_en": "ElDawayda",
+    "latitude": "00808065",
+    "longitude": "64041053",
+    "is_active": true
+  },
+  {
+    "id": 53800,
+    "name_ar": "ابو غنيمه",
+    "name_en": "Abo Ghneima",
+    "latitude": "59507127",
+    "longitude": "65041356",
+    "is_active": true
+  },
+  {
+    "id": 53900,
+    "name_ar": "القصابي بحري",
+    "name_en": "ElQassabi Bahary",
+    "latitude": "49506022",
+    "longitude": "29012064",
+    "is_active": true
+  },
+  {
+    "id": 54000,
+    "name_ar": "شمشيره",
+    "name_en": "Shamshera",
+    "latitude": "99905523",
+    "longitude": "39054663",
+    "is_active": true
+  },
+  {
+    "id": 54100,
+    "name_ar": "سيدي معروف",
+    "name_en": "Sidi Maarouf",
+    "latitude": "80404834",
+    "longitude": "97056639",
+    "is_active": true
+  },
+  {
+    "id": 54200,
+    "name_ar": "فوه",
+    "name_en": "Fowa",
+    "latitude": "80304575",
+    "longitude": "51040455",
+    "is_active": true
+  },
+  {
+    "id": 54300,
+    "name_ar": "منيه الاشراف",
+    "name_en": "Menyet ELAshraf",
+    "latitude": "49400526",
+    "longitude": "51067752",
+    "is_active": true
+  },
+  {
+    "id": 54400,
+    "name_ar": "قبريط",
+    "name_en": "Qabreet",
+    "latitude": "99109112",
+    "longitude": "24077960",
+    "is_active": true
+  },
+  {
+    "id": 54500,
+    "name_ar": "السالميه بحري",
+    "name_en": "ElSalmia Bahary",
+    "latitude": "50409839",
+    "longitude": "83021839",
+    "is_active": true
+  },
+  {
+    "id": 54600,
+    "name_ar": "محله مالك",
+    "name_en": "Mahallet Malek",
+    "latitude": "10100385",
+    "longitude": "69067155",
+    "is_active": true
+  },
+  {
+    "id": 54700,
+    "name_ar": "الاكاديميه البحريه",
+    "name_en": "ElAkademia ElBaharia",
+    "latitude": "89500731",
+    "longitude": "06085559",
+    "is_active": false
+  },
+  {
+    "id": 54800,
+    "name_ar": "ابو قير",
+    "name_en": "Abo Keer",
+    "latitude": "69001637",
+    "longitude": "85092161",
+    "is_active": false
+  },
+  {
+    "id": 54900,
+    "name_ar": "محرم بك",
+    "name_en": "Muharram Bek",
+    "latitude": "30009639",
+    "longitude": "53035542",
+    "is_active": true
+  },
+  {
+    "id": 55000,
+    "name_ar": "جنينه القباري",
+    "name_en": "Geneinet ElQabbari",
+    "latitude": "90600149",
+    "longitude": "54050947",
+    "is_active": true
+  },
+  {
+    "id": 55100,
+    "name_ar": "المتراس",
+    "name_en": "ElMetrass",
+    "latitude": "90509871",
+    "longitude": "85031647",
+    "is_active": true
+  },
+  {
+    "id": 55200,
+    "name_ar": "مواصله المكس",
+    "name_en": "Mowasalet ElMix",
+    "latitude": "19605819",
+    "longitude": "84016541",
+    "is_active": true
+  },
+  {
+    "id": 55300,
+    "name_ar": "سيدي مرغب",
+    "name_en": "Sidi Marghab",
+    "latitude": "69409906",
+    "longitude": "07020279",
+    "is_active": true
+  },
+  {
+    "id": 55400,
+    "name_ar": "التفرع",
+    "name_en": "ElTafaroa",
+    "latitude": "80001556",
+    "longitude": "61015349",
+    "is_active": true
+  },
+  {
+    "id": 55500,
+    "name_ar": "عبد القادر",
+    "name_en": "Abdel Kader",
+    "latitude": "90601896",
+    "longitude": "82099146",
+    "is_active": true
+  },
+  {
+    "id": 55600,
+    "name_ar": "العامريه",
+    "name_en": "ElAmerya",
+    "latitude": "89201304",
+    "longitude": "75088946",
+    "is_active": true
+  },
+  {
+    "id": 55700,
+    "name_ar": "كنج مريوط",
+    "name_en": "Eikenji Mariout",
+    "latitude": "88709190",
+    "longitude": "19057178",
+    "is_active": true
+  },
+  {
+    "id": 55800,
+    "name_ar": "مريوط",
+    "name_en": "Mariout",
+    "latitude": "30500664",
+    "longitude": "70082548",
+    "is_active": true
+  },
+  {
+    "id": 55900,
+    "name_ar": "مطار برج العرب",
+    "name_en": "Matar Burj ElArab",
+    "latitude": "70409397",
+    "longitude": "60084641",
+    "is_active": true
+  },
+  {
+    "id": 56000,
+    "name_ar": "بهيج",
+    "name_en": "Baheej",
+    "latitude": "61503208",
+    "longitude": "53073842",
+    "is_active": true
+  },
+  {
+    "id": 56100,
+    "name_ar": "برج العرب",
+    "name_en": "Burj ElArab",
+    "latitude": "58409185",
+    "longitude": "51097446",
+    "is_active": true
+  },
+  {
+    "id": 56200,
+    "name_ar": "الغربانيات",
+    "name_en": "ElGharbanyat",
+    "latitude": "08908881",
+    "longitude": "32028876",
+    "is_active": true
+  },
+  {
+    "id": 56300,
+    "name_ar": "الحمام",
+    "name_en": "ElHammam",
+    "latitude": "00304178",
+    "longitude": "00000952",
+    "is_active": true
+  },
+  {
+    "id": 56400,
+    "name_ar": "الرويسات",
+    "name_en": "ElRoseyat",
+    "latitude": "51604919",
+    "longitude": "36082044",
+    "is_active": true
+  },
+  {
+    "id": 56500,
+    "name_ar": "العميد",
+    "name_en": "ElAmeed",
+    "latitude": "98008776",
+    "longitude": "19047943",
+    "is_active": true
+  },
+  {
+    "id": 56600,
+    "name_ar": "الجباسات",
+    "name_en": "ElGabassat",
+    "latitude": "78908570",
+    "longitude": "71069478",
+    "is_active": true
+  },
+  {
+    "id": 56700,
+    "name_ar": "العلمين",
+    "name_en": "ElAlamein",
+    "latitude": "50505879",
+    "longitude": "54032253",
+    "is_active": true
+  },
+  {
+    "id": 56800,
+    "name_ar": "تل العيسي",
+    "name_en": "Tell ElEssi",
+    "latitude": "61207000",
+    "longitude": "86034331",
+    "is_active": true
+  },
+  {
+    "id": 56900,
+    "name_ar": "سيدي عبد الرحمن",
+    "name_en": "Sidi Abdel Rahman",
+    "latitude": "98506992",
+    "longitude": "70029234",
+    "is_active": true
+  },
+  {
+    "id": 57000,
+    "name_ar": "غزال",
+    "name_en": "Ghazal",
+    "latitude": "69301307",
+    "longitude": "53092032",
+    "is_active": true
+  },
+  {
+    "id": 57100,
+    "name_ar": "الضبعه",
+    "name_en": "ElDabaa",
+    "latitude": "79902005",
+    "longitude": "41060380",
+    "is_active": true
+  },
+  {
+    "id": 57200,
+    "name_ar": "سيدي شبيب",
+    "name_en": "Sidi Shabib",
+    "latitude": "30304052",
+    "longitude": "15044867",
+    "is_active": true
+  },
+  {
+    "id": 57300,
+    "name_ar": "جلال",
+    "name_en": "Jalal",
+    "latitude": "30402790",
+    "longitude": "17029734",
+    "is_active": true
+  },
+  {
+    "id": 57350,
+    "name_ar": "الفرديه",
+    "name_en": "ElFardya",
+    "latitude": "69103701",
+    "longitude": "08021838",
+    "is_active": true
+  },
+  {
+    "id": 57400,
+    "name_ar": "فوكه",
+    "name_en": "Foka",
+    "latitude": "79406203",
+    "longitude": "91088127",
+    "is_active": true
+  },
+  {
+    "id": 57500,
+    "name_ar": "راس الحكمه",
+    "name_en": "Rass ELHekma",
+    "latitude": "19003517",
+    "longitude": "09089491",
+    "is_active": true
+  },
+  {
+    "id": 57600,
+    "name_ar": "اطنوح",
+    "name_en": "Atnooh",
+    "latitude": "20904943",
+    "longitude": "60091667",
+    "is_active": true
+  },
+  {
+    "id": 57700,
+    "name_ar": "سيدي حنيش",
+    "name_en": "Sidi Hanish",
+    "latitude": "20102484",
+    "longitude": "74057223",
+    "is_active": true
+  },
+  {
+    "id": 57800,
+    "name_ar": "سيدي حنوش",
+    "name_en": "Sidi Hanouch",
+    "latitude": "29600422",
+    "longitude": "44050725",
+    "is_active": true
+  },
+  {
+    "id": 57900,
+    "name_ar": "جراوله",
+    "name_en": "Garawla",
+    "latitude": "99704029",
+    "longitude": "45043997",
+    "is_active": true
+  },
+  {
+    "id": 58000,
+    "name_ar": "سملا",
+    "name_en": "Smla",
+    "latitude": "39309125",
+    "longitude": "53089491",
+    "is_active": true
+  },
+  {
+    "id": 58100,
+    "name_ar": "مرسي مطروح",
+    "name_en": "Marsa Matruh",
+    "latitude": "10903027",
+    "longitude": "29061373",
+    "is_active": true
+  },
+  {
+    "id": 58200,
+    "name_ar": "تفرع ابيس",
+    "name_en": "Apees Branch",
+    "latitude": "80704174",
+    "longitude": "96059844",
+    "is_active": false
+  },
+  {
+    "id": 58300,
+    "name_ar": "الحناوي",
+    "name_en": "ElHinnawi",
+    "latitude": "09607907",
+    "longitude": "81027351",
+    "is_active": true
+  },
+  {
+    "id": 58400,
+    "name_ar": "نشرت",
+    "name_en": "Nashrat",
+    "latitude": "79008906",
+    "longitude": "00066463",
+    "is_active": true
+  },
+  {
+    "id": 58500,
+    "name_ar": "المنشاه الصغري",
+    "name_en": "ElMonshaa ElSoghra",
+    "latitude": "00809446",
+    "longitude": "61032330",
+    "is_active": true
+  },
+  {
+    "id": 58600,
+    "name_ar": "الحميديه",
+    "name_en": "ElHamidiyeh",
+    "latitude": "60606583",
+    "longitude": "81013655",
+    "is_active": true
+  },
+  {
+    "id": 58700,
+    "name_ar": "محله موسي",
+    "name_en": "Mahallet Moussa",
+    "latitude": "09809108",
+    "longitude": "88093953",
+    "is_active": true
+  },
+  {
+    "id": 58800,
+    "name_ar": "رزقه اماي",
+    "name_en": "Rezket Emmay",
+    "latitude": "69808204",
+    "longitude": "94001651",
+    "is_active": true
+  },
+  {
+    "id": 58900,
+    "name_ar": "سخا",
+    "name_en": "Sakha",
+    "latitude": "10509741",
+    "longitude": "50067335",
+    "is_active": true
+  },
+  {
+    "id": 59000,
+    "name_ar": "كفر الشيخ",
+    "name_en": "Kafr ElSheikh",
+    "latitude": "10707040",
+    "longitude": "58000437",
+    "is_active": true
+  },
+  {
+    "id": 59100,
+    "name_ar": "المرابعين",
+    "name_en": "ElMorabeen",
+    "latitude": "10200780",
+    "longitude": "90023957",
+    "is_active": true
+  },
+  {
+    "id": 59200,
+    "name_ar": "دقميره",
+    "name_en": "Duqmira",
+    "latitude": "79507810",
+    "longitude": "00016261",
+    "is_active": true
+  },
+  {
+    "id": 59300,
+    "name_ar": "السلام – ابو منيس",
+    "name_en": "ElSalam – Abominys",
+    "latitude": "69909012",
+    "longitude": "81027451",
+    "is_active": true
+  },
+  {
+    "id": 59400,
+    "name_ar": "سيدي غازي",
+    "name_en": "Sidi Ghazi",
+    "latitude": "30907433",
+    "longitude": "42066233",
+    "is_active": true
+  },
+  {
+    "id": 59500,
+    "name_ar": "الكوم الطويل",
+    "name_en": "ElKom ELTaweel",
+    "latitude": "00206576",
+    "longitude": "06001861",
+    "is_active": true
+  },
+  {
+    "id": 59600,
+    "name_ar": "الكراكات",
+    "name_en": "ElKarrakat",
+    "latitude": "69508117",
+    "longitude": "14095160",
+    "is_active": true
+  },
+  {
+    "id": 59700,
+    "name_ar": "كوم الحجنه",
+    "name_en": "Kom ElHegna",
+    "latitude": "19808211",
+    "longitude": "74065457",
+    "is_active": true
+  },
+  {
+    "id": 59800,
+    "name_ar": "ابشان",
+    "name_en": "Abshan",
+    "latitude": "00701940",
+    "longitude": "32064137",
+    "is_active": true
+  },
+  {
+    "id": 59900,
+    "name_ar": "بيلا",
+    "name_en": "Bella",
+    "latitude": "30308173",
+    "longitude": "24081164",
+    "is_active": true
+  },
+  {
+    "id": 60000,
+    "name_ar": "كفر الجرايده",
+    "name_en": "Kfar ElJarida",
+    "latitude": "30809834",
+    "longitude": "28077132",
+    "is_active": true
+  },
+  {
+    "id": 60100,
+    "name_ar": "بهوت",
+    "name_en": "Bahaut",
+    "latitude": "50106171",
+    "longitude": "22021865",
+    "is_active": true
+  },
+  {
+    "id": 60200,
+    "name_ar": "منشيه البدراوي",
+    "name_en": "Manshyet ElBadrawi",
+    "latitude": "99109718",
+    "longitude": "35073167",
+    "is_active": true
+  },
+  {
+    "id": 60300,
+    "name_ar": "بلقاس",
+    "name_en": "Belqas",
+    "latitude": "89600228",
+    "longitude": "55044258",
+    "is_active": true
+  },
+  {
+    "id": 60400,
+    "name_ar": "المحفوظه",
+    "name_en": "Mahfooza",
+    "latitude": "70407438",
+    "longitude": "05062539",
+    "is_active": true
+  },
+  {
+    "id": 60500,
+    "name_ar": "بسنديله",
+    "name_en": "Bessandilah",
+    "latitude": "70105579",
+    "longitude": "47076264",
+    "is_active": true
+  },
+  {
+    "id": 60600,
+    "name_ar": "كفر الشناوي",
+    "name_en": "Kafr ElShennawy",
+    "latitude": "59309914",
+    "longitude": "43057763",
+    "is_active": true
+  },
+  {
+    "id": 60700,
+    "name_ar": "القراشيه",
+    "name_en": "ElQarashiyah",
+    "latitude": "98204180",
+    "longitude": "73016652",
+    "is_active": true
+  },
+  {
+    "id": 60800,
+    "name_ar": "منيه البندره",
+    "name_en": "Menyet ElBandra",
+    "latitude": "10406972",
+    "longitude": "38019633",
+    "is_active": true
+  },
+  {
+    "id": 60900,
+    "name_ar": "الجميزه",
+    "name_en": "ElJemmeza",
+    "latitude": "01007011",
+    "longitude": "18083065",
+    "is_active": true
+  },
+  {
+    "id": 61000,
+    "name_ar": "شندلات",
+    "name_en": "Shandalat",
+    "latitude": "61008617",
+    "longitude": "17071068",
+    "is_active": true
+  },
+  {
+    "id": 61100,
+    "name_ar": "بلكيم",
+    "name_en": "Balkeem",
+    "latitude": "08505174",
+    "longitude": "12055167",
+    "is_active": true
+  },
+  {
+    "id": 61200,
+    "name_ar": "25يناير",
+    "name_en": "25 January",
+    "latitude": "68308788",
+    "longitude": "23079873",
+    "is_active": true
+  },
+  {
+    "id": 61300,
+    "name_ar": "برج العرب الجديده",
+    "name_en": "Burj ElArab ElGadida",
+    "latitude": "40202576",
+    "longitude": "96089341",
+    "is_active": true
+  },
+  {
+    "id": 61330,
+    "name_ar": "تفرع شاوه",
+    "name_en": "Shawa Joint",
+    "latitude": "99700405",
+    "longitude": "47011855",
+    "is_active": false
+  },
+  {
+    "id": 61350,
+    "name_ar": "سللنت",
+    "name_en": "Salent",
+    "latitude": "50503691",
+    "longitude": "40097163",
+    "is_active": true
+  },
+  {
+    "id": 61400,
+    "name_ar": "الدنابيق",
+    "name_en": "ElDanabeeq",
+    "latitude": "60700693",
+    "longitude": "48042363",
+    "is_active": true
+  },
+  {
+    "id": 61500,
+    "name_ar": "سلامون",
+    "name_en": "Salamoon",
+    "latitude": "79806501",
+    "longitude": "40004661",
+    "is_active": true
+  },
+  {
+    "id": 61600,
+    "name_ar": "شها",
+    "name_en": "Shaha",
+    "latitude": "09807902",
+    "longitude": "47024059",
+    "is_active": true
+  },
+  {
+    "id": 61700,
+    "name_ar": "محله دمنه",
+    "name_en": "Mahallet Demna",
+    "latitude": "00701258",
+    "longitude": "99084820",
+    "is_active": true
+  },
+  {
+    "id": 61800,
+    "name_ar": "ميت ضافر",
+    "name_en": "Meet Daafer",
+    "latitude": "90007486",
+    "longitude": "50067366",
+    "is_active": true
+  },
+  {
+    "id": 61900,
+    "name_ar": "الخشاشنه",
+    "name_en": "ElKhashashna",
+    "latitude": "59907007",
+    "longitude": "51086662",
+    "is_active": true
+  },
+  {
+    "id": 62000,
+    "name_ar": "دكرنس",
+    "name_en": "Dikirnis",
+    "latitude": "89007104",
+    "longitude": "54098965",
+    "is_active": true
+  },
+  {
+    "id": 62100,
+    "name_ar": "ميت شرف",
+    "name_en": "Meet Sharaf",
+    "latitude": "09108508",
+    "longitude": "25076559",
+    "is_active": true
+  },
+  {
+    "id": 62200,
+    "name_ar": "اشمون الرمان",
+    "name_en": "Ashmoon ElRomman",
+    "latitude": "90608248",
+    "longitude": "85090324",
+    "is_active": true
+  },
+  {
+    "id": 62300,
+    "name_ar": "ميت الخولي",
+    "name_en": "Meet ElKholee",
+    "latitude": "40904684",
+    "longitude": "60033462",
+    "is_active": true
+  },
+  {
+    "id": 62400,
+    "name_ar": "ميت حديد",
+    "name_en": "Meet Hadeed",
+    "latitude": "79101213",
+    "longitude": "63044769",
+    "is_active": true
+  },
+  {
+    "id": 62500,
+    "name_ar": "ميت عاصم",
+    "name_en": "Meet Asem",
+    "latitude": "19802314",
+    "longitude": "14058858",
+    "is_active": true
+  },
+  {
+    "id": 62600,
+    "name_ar": "كفر علام",
+    "name_en": "Kafr Allam",
+    "latitude": "10404143",
+    "longitude": "76099525",
+    "is_active": true
+  },
+  {
+    "id": 62700,
+    "name_ar": "الرياض",
+    "name_en": "ElReyad",
+    "latitude": "00700289",
+    "longitude": "79041365",
+    "is_active": true
+  },
+  {
+    "id": 62800,
+    "name_ar": "الكردي",
+    "name_en": "ElKordy",
+    "latitude": "39606916",
+    "longitude": "77039764",
+    "is_active": true
+  },
+  {
+    "id": 62900,
+    "name_ar": "ميت سلسيل",
+    "name_en": "Meet Salsil",
+    "latitude": "39006215",
+    "longitude": "04047759",
+    "is_active": true
+  },
+  {
+    "id": 63000,
+    "name_ar": "ميت مرجا سلسيل",
+    "name_en": "Meet Marja Salsil",
+    "latitude": "89106018",
+    "longitude": "02029457",
+    "is_active": true
+  },
+  {
+    "id": 63100,
+    "name_ar": "الجماليه",
+    "name_en": "ElGamalyia",
+    "latitude": "70300644",
+    "longitude": "67006129",
+    "is_active": true
+  },
+  {
+    "id": 63200,
+    "name_ar": "ميت خضير",
+    "name_en": "Meet Khodeer",
+    "latitude": "20700887",
+    "longitude": "88077863",
+    "is_active": true
+  },
+  {
+    "id": 63300,
+    "name_ar": "المنزله",
+    "name_en": "ElManzala",
+    "latitude": "99004111",
+    "longitude": "96024365",
+    "is_active": true
+  },
+  {
+    "id": 63400,
+    "name_ar": "دار السلام",
+    "name_en": "Dar EISalaam",
+    "latitude": "89605510",
+    "longitude": "94089049",
+    "is_active": true
+  },
+  {
+    "id": 63450,
+    "name_ar": "عصافره المنزله",
+    "name_en": "Asafret ElManzala",
+    "latitude": "40201144",
+    "longitude": "48044625",
+    "is_active": true
+  },
+  {
+    "id": 63500,
+    "name_ar": "المطريه",
+    "name_en": "ElMataria",
+    "latitude": "30800343",
+    "longitude": "45048426",
+    "is_active": true
+  },
+  {
+    "id": 63600,
+    "name_ar": "سانجرج",
+    "name_en": "Sanjurge",
+    "latitude": "91804244",
+    "longitude": "91042251",
+    "is_active": true
+  },
+  {
+    "id": 63700,
+    "name_ar": "منشيه سلطان",
+    "name_en": "Manshyet ElSultan",
+    "latitude": "08303750",
+    "longitude": "92077157",
+    "is_active": true
+  },
+  {
+    "id": 63800,
+    "name_ar": "العراقيه",
+    "name_en": "ElErakia",
+    "latitude": "58704757",
+    "longitude": "92038750",
+    "is_active": true
+  },
+  {
+    "id": 63900,
+    "name_ar": "عشما",
+    "name_en": "Ashama",
+    "latitude": "81700906",
+    "longitude": "58031835",
+    "is_active": true
+  },
+  {
+    "id": 64000,
+    "name_ar": "الشهداء",
+    "name_en": "ElShohada",
+    "latitude": "00409698",
+    "longitude": "50020835",
+    "is_active": true
+  },
+  {
+    "id": 64100,
+    "name_ar": "دنشواي",
+    "name_en": "Dinshway",
+    "latitude": "51105839",
+    "longitude": "84077353",
+    "is_active": true
+  },
+  {
+    "id": 64200,
+    "name_ar": "دناصور",
+    "name_en": "Dinosaur",
+    "latitude": "98900360",
+    "longitude": "85049157",
+    "is_active": true
+  },
+  {
+    "id": 64300,
+    "name_ar": "زاويه البقلي",
+    "name_en": "Zawyet EBakli",
+    "latitude": "48202868",
+    "longitude": "02034760",
+    "is_active": true
+  },
+  {
+    "id": 64400,
+    "name_ar": "بشتامي",
+    "name_en": "Beshtamy",
+    "latitude": "80803593",
+    "longitude": "63047734",
+    "is_active": true
+  },
+  {
+    "id": 64500,
+    "name_ar": "عمروس",
+    "name_en": "Amros",
+    "latitude": "11109529",
+    "longitude": "72094954",
+    "is_active": true
+  },
+  {
+    "id": 64600,
+    "name_ar": "كوم مازن",
+    "name_en": "Kom Mazen",
+    "latitude": "68907368",
+    "longitude": "82091055",
+    "is_active": true
+  },
+  {
+    "id": 64700,
+    "name_ar": "طنوب",
+    "name_en": "Tanob",
+    "latitude": "08709765",
+    "longitude": "06016765",
+    "is_active": true
+  },
+  {
+    "id": 64800,
+    "name_ar": "عزبه الحطيم",
+    "name_en": "Ezbet ElHateem",
+    "latitude": "50706381",
+    "longitude": "64043730",
+    "is_active": true
+  },
+  {
+    "id": 64900,
+    "name_ar": "مشله",
+    "name_en": "Mashalla",
+    "latitude": "81501928",
+    "longitude": "83006057",
+    "is_active": true
+  },
+  {
+    "id": 65000,
+    "name_ar": "كفر مشله",
+    "name_en": "Kafr Mashalla",
+    "latitude": "51509314",
+    "longitude": "85017058",
+    "is_active": true
+  },
+  {
+    "id": 65100,
+    "name_ar": "قصر نصر الدين",
+    "name_en": "Qasr Nasreddin",
+    "latitude": "88908670",
+    "longitude": "80014254",
+    "is_active": true
+  },
+  {
+    "id": 65200,
+    "name_ar": "الدلجمون",
+    "name_en": "ElDalgamon",
+    "latitude": "88300387",
+    "longitude": "00079463",
+    "is_active": true
+  },
+  {
+    "id": 65250,
+    "name_ar": "عدلي منصور",
+    "name_en": "Adly Mansour",
+    "latitude": "31103746",
+    "longitude": "07073537",
+    "is_active": true
+  },
+  {
+    "id": 65275,
+    "name_ar": "كم13",
+    "name_en": "Km13",
+    "latitude": "28305215",
+    "longitude": "41075359",
+    "is_active": false
+  },
+  {
+    "id": 65300,
+    "name_ar": "العبور",
+    "name_en": "ElOboor",
+    "latitude": "71201844",
+    "longitude": "91086927",
+    "is_active": true
+  },
+  {
+    "id": 65400,
+    "name_ar": "درب الحاج",
+    "name_en": "Darb ELHag",
+    "latitude": "51508374",
+    "longitude": "56053464",
+    "is_active": true
+  },
+  {
+    "id": 65500,
+    "name_ar": "الشروق",
+    "name_en": "ElSherook",
+    "latitude": "48008810",
+    "longitude": "62024567",
+    "is_active": true
+  },
+  {
+    "id": 65550,
+    "name_ar": "بدر",
+    "name_en": "Badr",
+    "latitude": "58007712",
+    "longitude": "11046657",
+    "is_active": true
+  },
+  {
+    "id": 65600,
+    "name_ar": "الربيكي",
+    "name_en": "ElRobaiky",
+    "latitude": "98706710",
+    "longitude": "13095052",
+    "is_active": true
+  },
+  {
+    "id": 65650,
+    "name_ar": "وادي السيل",
+    "name_en": "wady el sail",
+    "latitude": "71601540",
+    "longitude": "57000826",
+    "is_active": true
+  },
+  {
+    "id": 65665,
+    "name_ar": "جبل الجفره",
+    "name_en": "Jabal al Jafra",
+    "latitude": "48105616",
+    "longitude": "96064863",
+    "is_active": true
+  },
+  {
+    "id": 65680,
+    "name_ar": "كم83",
+    "name_en": "Km83",
+    "latitude": "38204215",
+    "longitude": "72074149",
+    "is_active": true
+  },
+  {
+    "id": 65700,
+    "name_ar": "جبل عوبيد",
+    "name_en": "Gabl Obed",
+    "latitude": "31705748",
+    "longitude": "21077728",
+    "is_active": true
+  },
+  {
+    "id": 65720,
+    "name_ar": "عوبيد1",
+    "name_en": "Jabal Obaid",
+    "latitude": "98809203",
+    "longitude": "25013679",
+    "is_active": false
+  },
+  {
+    "id": 65740,
+    "name_ar": "مستودع",
+    "name_en": "mostawda",
+    "latitude": "21008948",
+    "longitude": "15052624",
+    "is_active": false
+  },
+  {
+    "id": 65800,
+    "name_ar": "ط العجرود-ح بترول",
+    "name_en": "Tabeyet ElAjroud",
+    "latitude": "01607188",
+    "longitude": "36027277",
+    "is_active": false
+  },
+  {
+    "id": 65820,
+    "name_ar": "مدخل قرية الرائد",
+    "name_en": "Raed Village entrance",
+    "latitude": "38508309",
+    "longitude": "55025144",
+    "is_active": false
+  },
+  {
+    "id": 65850,
+    "name_ar": "مسجد الرحمة",
+    "name_en": "Rahma Mosque",
+    "latitude": "88607701",
+    "longitude": "36036876",
+    "is_active": false
+  },
+  {
+    "id": 65900,
+    "name_ar": "العجرود الجديده",
+    "name_en": "ElAjroud ElGadida",
+    "latitude": "88505005",
+    "longitude": "45071172",
+    "is_active": true
+  },
+  {
+    "id": 66000,
+    "name_ar": "الوادي ن ب",
+    "name_en": "EL Wady",
+    "latitude": "48601802",
+    "longitude": "46013971",
+    "is_active": true
+  },
+  {
+    "id": 67000,
+    "name_ar": "مسجد الاسراء",
+    "name_en": "Esraa Mosq",
+    "latitude": "48809759",
+    "longitude": "68033046",
+    "is_active": false
+  },
+  {
+    "id": 67100,
+    "name_ar": "مسجد التوبه",
+    "name_en": "Tawba Mosq",
+    "latitude": "50008096",
+    "longitude": "12064923",
+    "is_active": false
+  },
+  {
+    "id": 67200,
+    "name_ar": "نادي القناه",
+    "name_en": "Canel Club",
+    "latitude": "31706731",
+    "longitude": "22011870",
+    "is_active": false
+  },
+  {
+    "id": 67300,
+    "name_ar": "مدرسه الاعلام",
+    "name_en": "Media School",
+    "latitude": "68109555",
+    "longitude": "23027974",
+    "is_active": false
+  },
+  {
+    "id": 67400,
+    "name_ar": "نادي المواني",
+    "name_en": "Nady Elmawani",
+    "latitude": "08501667",
+    "longitude": "51025745",
+    "is_active": false
+  },
+  {
+    "id": 67500,
+    "name_ar": "التمساح",
+    "name_en": "ElTimsah",
+    "latitude": "10205495",
+    "longitude": "12004622",
+    "is_active": false
+  },
+  {
+    "id": 67600,
+    "name_ar": "فردان ك 2",
+    "name_en": "Ferdan Km 2",
+    "latitude": "31801034",
+    "longitude": "33069173",
+    "is_active": false
+  },
+  {
+    "id": 67700,
+    "name_ar": "ابو عياش",
+    "name_en": "Abo Ayash",
+    "latitude": "18705464",
+    "longitude": "31038274",
+    "is_active": false
+  },
+  {
+    "id": 67800,
+    "name_ar": "فردان منحني جنوب",
+    "name_en": "Ferdan",
+    "latitude": "78905363",
+    "longitude": "57067544",
+    "is_active": false
+  },
+  {
+    "id": 67900,
+    "name_ar": "مفرق الفردان",
+    "name_en": "Fredan Joint",
+    "latitude": "10402099",
+    "longitude": "14029526",
+    "is_active": false
+  },
+  {
+    "id": 68000,
+    "name_ar": "كوبري فردان غرب",
+    "name_en": "Ferdan West Bridge",
+    "latitude": "20602997",
+    "longitude": "11088426",
+    "is_active": false
+  },
+  {
+    "id": 68100,
+    "name_ar": "جزيره الفردان",
+    "name_en": "Ferdan Gazera",
+    "latitude": "21700033",
+    "longitude": "30009376",
+    "is_active": false
+  },
+  {
+    "id": 68200,
+    "name_ar": "كوبري فردان شرق",
+    "name_en": "Ferdan East Bridge",
+    "latitude": "48605366",
+    "longitude": "34088472",
+    "is_active": false
+  },
+  {
+    "id": 68300,
+    "name_ar": "مسجد الشهيد ش",
+    "name_en": "Shaheed N",
+    "latitude": "08605165",
+    "longitude": "56093042",
+    "is_active": false
+  },
+  {
+    "id": 68400,
+    "name_ar": "مسجد الشهيد ج",
+    "name_en": "Shaheed S",
+    "latitude": "70002890",
+    "longitude": "14036020",
+    "is_active": false
+  },
+  {
+    "id": 68500,
+    "name_ar": "بشاير الخير",
+    "name_en": "Bashayer Elkhair",
+    "latitude": "51208628",
+    "longitude": "38006777",
+    "is_active": false
+  },
+  {
+    "id": 68600,
+    "name_ar": "الدنشالي",
+    "name_en": "Denshaly",
+    "latitude": "88302976",
+    "longitude": "38051877",
+    "is_active": false
+  },
+  {
+    "id": 68700,
+    "name_ar": "شرق البلاح",
+    "name_en": "Ballah East",
+    "latitude": "78607771",
+    "longitude": "52044149",
+    "is_active": false
+  },
+  {
+    "id": 68800,
+    "name_ar": "قنطره شرق ك 8",
+    "name_en": "Qantra Sharq K 8",
+    "latitude": "20308577",
+    "longitude": "18023227",
+    "is_active": false
+  },
+  {
+    "id": 68900,
+    "name_ar": "قنطره شرق ك 7",
+    "name_en": "Qantra Sharq K 7",
+    "latitude": "01805211",
+    "longitude": "30096474",
+    "is_active": false
+  },
+  {
+    "id": 69000,
+    "name_ar": "القنطره شرق",
+    "name_en": "Qantra Sharq",
+    "latitude": "11109205",
+    "longitude": "33087876",
+    "is_active": true
+  },
+  {
+    "id": 69100,
+    "name_ar": "منحني المزرعه",
+    "name_en": "Mazraha turn",
+    "latitude": "28209581",
+    "longitude": "47047178",
+    "is_active": false
+  },
+  {
+    "id": 69200,
+    "name_ar": "مسجد النور",
+    "name_en": "ElNoor Mosq",
+    "latitude": "78009984",
+    "longitude": "42062548",
+    "is_active": false
+  },
+  {
+    "id": 69300,
+    "name_ar": "المزرعه",
+    "name_en": "Mazraa",
+    "latitude": "80906866",
+    "longitude": "97059916",
+    "is_active": false
+  },
+  {
+    "id": 69400,
+    "name_ar": "جلبانه",
+    "name_en": "Jilbana",
+    "latitude": "31102407",
+    "longitude": "42028975",
+    "is_active": true
+  },
+  {
+    "id": 69500,
+    "name_ar": "جلبانه ك 3",
+    "name_en": "Gilbana Km 3",
+    "latitude": "88205691",
+    "longitude": "50053176",
+    "is_active": false
+  },
+  {
+    "id": 69600,
+    "name_ar": "منحني الشيخ زايد",
+    "name_en": "Monhaan Sjeik Zayed",
+    "latitude": "98008297",
+    "longitude": "39023541",
+    "is_active": false
+  },
+  {
+    "id": 69700,
+    "name_ar": "بالوظه",
+    "name_en": "Baloza",
+    "latitude": "20508753",
+    "longitude": "93038219",
+    "is_active": true
+  },
+  {
+    "id": 69800,
+    "name_ar": "سلام مصر",
+    "name_en": "Salam misr",
+    "latitude": "90504790",
+    "longitude": "63047071",
+    "is_active": false
+  },
+  {
+    "id": 69900,
+    "name_ar": "مدرسه رمانه",
+    "name_en": "Romana School",
+    "latitude": "49500306",
+    "longitude": "63005778",
+    "is_active": false
+  },
+  {
+    "id": 70000,
+    "name_ar": "رمانه",
+    "name_en": "Romana",
+    "latitude": "10406191",
+    "longitude": "60030772",
+    "is_active": true
+  },
+  {
+    "id": 70100,
+    "name_ar": "منحني قاطيه",
+    "name_en": "Monhana Qatyia",
+    "latitude": "48407898",
+    "longitude": "76045176",
+    "is_active": false
+  },
+  {
+    "id": 70200,
+    "name_ar": "30 يونيه (رابعه)",
+    "name_en": "30 Jun(Rabaa)",
+    "latitude": "88307994",
+    "longitude": "18096046",
+    "is_active": false
+  },
+  {
+    "id": 70300,
+    "name_ar": "ام عقبه",
+    "name_en": "Im Aqaba",
+    "latitude": "90809251",
+    "longitude": "61069919",
+    "is_active": false
+  },
+  {
+    "id": 70400,
+    "name_ar": "نجيله",
+    "name_en": "Najila",
+    "latitude": "80505199",
+    "longitude": "87001378",
+    "is_active": true
+  },
+  {
+    "id": 70500,
+    "name_ar": "منحني النصر",
+    "name_en": "Monhana Elnsar",
+    "latitude": "49700704",
+    "longitude": "82024676",
+    "is_active": false
+  },
+  {
+    "id": 70600,
+    "name_ar": "بئر العبد",
+    "name_en": "Ber Elabd",
+    "latitude": "39600003",
+    "longitude": "87038730",
+    "is_active": true
+  },
+  {
+    "id": 80000,
+    "name_ar": "تفرع الكوبري",
+    "name_en": "ElKobri Joint",
+    "latitude": "98003545",
+    "longitude": "86030255",
+    "is_active": false
+  },
+  {
+    "id": 80100,
+    "name_ar": "الكوبري المعدني",
+    "name_en": "Metalic Bridge",
+    "latitude": "78703447",
+    "longitude": "08094667",
+    "is_active": false
+  },
+  {
+    "id": 80200,
+    "name_ar": "منحني كمال خضر",
+    "name_en": "KamalKhedr Curve",
+    "latitude": "41404611",
+    "longitude": "61090732",
+    "is_active": false
+  },
+  {
+    "id": 80300,
+    "name_ar": "كمال خضر",
+    "name_en": "KamalKhedr",
+    "latitude": "71301358",
+    "longitude": "76043858",
+    "is_active": false
+  },
+  {
+    "id": 80400,
+    "name_ar": "عزبة مسجد الرحمن",
+    "name_en": "EzbetAbdelRahaman",
+    "latitude": "38904441",
+    "longitude": "77030850",
+    "is_active": false
+  },
+  {
+    "id": 80500,
+    "name_ar": "مزرعة وهدان",
+    "name_en": "Wahdan",
+    "latitude": "78605343",
+    "longitude": "19097067",
+    "is_active": false
+  },
+  {
+    "id": 80600,
+    "name_ar": "العربية المتحده",
+    "name_en": "Arabic United",
+    "latitude": "11302916",
+    "longitude": "73070133",
+    "is_active": false
+  },
+  {
+    "id": 80700,
+    "name_ar": "الاقليمي",
+    "name_en": "ElEqlimi",
+    "latitude": "81109646",
+    "longitude": "72038450",
+    "is_active": false
+  },
+  {
+    "id": 80800,
+    "name_ar": "مقابل بدر",
+    "name_en": "MoakablBadr",
+    "latitude": "28506146",
+    "longitude": "72047158",
+    "is_active": false
+  },
+  {
+    "id": 80900,
+    "name_ar": "الجزار",
+    "name_en": "ElGazar",
+    "latitude": "58206643",
+    "longitude": "13092963",
+    "is_active": true
+  },
+  {
+    "id": 81000,
+    "name_ar": "منحني الجزار",
+    "name_en": "ElGazar Curve",
+    "latitude": "78706442",
+    "longitude": "26083168",
+    "is_active": false
+  },
+  {
+    "id": 81100,
+    "name_ar": "منحني السادات",
+    "name_en": "ElSadat Curve",
+    "latitude": "61501613",
+    "longitude": "80035232",
+    "is_active": false
+  },
+  {
+    "id": 81200,
+    "name_ar": "تفرع بضائع",
+    "name_en": "Goods Joint",
+    "latitude": "71105557",
+    "longitude": "55014850",
+    "is_active": false
+  },
+  {
+    "id": 81300,
+    "name_ar": "السادات ركاب",
+    "name_en": "ElSadat Passangers",
+    "latitude": "98209537",
+    "longitude": "32095957",
+    "is_active": false
+  },
+  {
+    "id": 81400,
+    "name_ar": "السادات",
+    "name_en": "ElSadat",
+    "latitude": "78806335",
+    "longitude": "32071266",
+    "is_active": true
+  }
+]

@@ -85,3 +85,75 @@ export async function getAllScanners(req, res) {
         res.status(500).json({ error: error.message });
     }
 }
+
+// ========== NEW ADMIN ACTIONS ==========
+
+export async function createUser(req, res) {
+    try {
+        const { national_id, full_name, email, phone, password, gender, card_uid } = req.body;
+
+        if (!national_id || !full_name || !password) {
+            return res.status(400).json({ error: "national_id, full_name, and password are required" });
+        }
+
+        const user = await AdminService.CreateUser({ national_id, full_name, email, phone, password, gender, card_uid });
+        res.status(201).json({ message: "User created successfully", user });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+}
+
+export async function topUpUser(req, res) {
+    try {
+        const { id } = req.params;
+        const { amount, payment_method } = req.body;
+
+        if (!amount || amount <= 0) {
+            return res.status(400).json({ error: "Invalid amount" });
+        }
+        if (!payment_method) {
+            return res.status(400).json({ error: "Payment method is required (cash, vodafone, card, etc.)" });
+        }
+
+        const result = await AdminService.TopUpUser(id, amount, payment_method, req.user.id);
+        res.status(200).json({ message: "Balance topped up successfully", ...result });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+}
+
+export async function registerNfcTag(req, res) {
+    try {
+        const { card_uid } = req.body;
+
+        if (!card_uid) {
+            return res.status(400).json({ error: "card_uid is required" });
+        }
+
+        const card = await AdminService.RegisterNfcTag(card_uid, req.user.id);
+        res.status(201).json({ message: "NFC tag registered", card });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+}
+
+export async function getUnpairedCards(req, res) {
+    try {
+        const mine = req.query.mine === "true";
+        const cards = await AdminService.GetUnpairedCards(mine ? req.user.id : null);
+        res.status(200).json({ cards });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+}
+
+export async function getAllBookings(req, res) {
+    try {
+        const page = parseInt(req.query.page) || 1;
+        const limit = parseInt(req.query.limit) || 20;
+        const result = await AdminService.GetAllBookings(page, limit);
+        res.status(200).json(result);
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+}

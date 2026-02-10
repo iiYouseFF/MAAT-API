@@ -1,51 +1,105 @@
 import supabase from "../../config/supabase.js";
+import { calculateFare } from "../../utils/fareEngine.js";
 
 export async function createBooking(userId, trainId, passengers, searchParams) {
-    // 1. Validate train exists and has enough seats
+    // 1. Validate train exists
     const { data: train, error: trainError } = await supabase
         .from("trains")
-        .select("*")
+        .select("id, train_number, class_id, train_classes(name_ar, name_en)")
         .eq("id", trainId)
         .single();
 
-    if (trainError) throw new Error("Train not found");
+    if (trainError || !train) throw new Error("Train not found");
 
-    if (train.available_seats < passengers) {
-        throw new Error("Not enough available seats");
+    // 2. Resolve station IDs for fare calculation
+    let fromStationId = null;
+    let toStationId = null;
+
+    if (searchParams?.from) {
+        const { data: fromStations } = await supabase
+            .from("stations")
+            .select("id")
+            .or(`name_ar.ilike.%${searchParams.from}%,name_en.ilike.%${searchParams.from}%`)
+            .limit(1);
+        if (fromStations?.length) fromStationId = fromStations[0].id;
     }
 
-    // 2. Calculate total fare
-    const totalFare = train.fare * passengers;
+    if (searchParams?.to) {
+        const { data: toStations } = await supabase
+            .from("stations")
+            .select("id")
+            .or(`name_ar.ilike.%${searchParams.to}%,name_en.ilike.%${searchParams.to}%`)
+            .limit(1);
+        if (toStations?.length) toStationId = toStations[0].id;
+    }
 
-    // 3. Create booking record
+    // 3. Calculate fare using real pricing engine
+    let farePerPassenger = 0;
+    if (fromStationId && toStationId) {
+        farePerPassenger = await calculateFare(fromStationId, toStationId);
+    }
+
+    const totalFare = farePerPassenger * passengers;
+
+    // 4. Check user balance
+    const { data: user, error: userError } = await supabase
+        .from("users")
+        .select("balance")
+        .eq("id", userId)
+        .single();
+
+    if (userError || !user) throw new Error("User not found");
+
+    if ((user.balance || 0) < totalFare) {
+        throw new Error(`Insufficient balance. Required: ${totalFare} EGP, Available: ${user.balance || 0} EGP`);
+    }
+
+    // 5. Deduct balance
+    const newBalance = (user.balance || 0) - totalFare;
+    const { error: balanceError } = await supabase
+        .from("users")
+        .update({ balance: newBalance })
+        .eq("id", userId);
+
+    if (balanceError) throw new Error("Failed to deduct balance");
+
+    // 6. Create booking record
     const { data: booking, error: bookingError } = await supabase
         .from("bookings")
         .insert({
             user_id: userId,
             train_id: trainId,
-            passengers: passengers,
+            passengers,
+            fare_per_passenger: farePerPassenger,
             total_fare: totalFare,
             status: "confirmed",
             booking_date: new Date().toISOString(),
-            from_station: searchParams.from,
-            to_station: searchParams.to,
-            travel_date: searchParams.date,
-            ticket_class: searchParams.ticketClass
+            from_station: searchParams?.from || null,
+            to_station: searchParams?.to || null,
+            from_station_id: fromStationId,
+            to_station_id: toStationId,
+            travel_date: searchParams?.date || null,
+            ticket_class: train.train_classes?.name_en || searchParams?.ticketClass || null,
         })
         .select()
         .single();
 
-    if (bookingError) throw bookingError;
+    if (bookingError) {
+        // Refund balance if booking insert fails
+        await supabase
+            .from("users")
+            .update({ balance: user.balance })
+            .eq("id", userId);
+        throw bookingError;
+    }
 
-    // 4. Update available seats
-    const { error: updateError } = await supabase
-        .from("trains")
-        .update({ available_seats: train.available_seats - passengers })
-        .eq("id", trainId);
-
-    if (updateError) throw updateError;
-
-    return booking;
+    return {
+        ...booking,
+        train_number: train.train_number,
+        train_class: train.train_classes,
+        fare_per_passenger: farePerPassenger,
+        remaining_balance: newBalance,
+    };
 }
 
 export async function getUserBookings(userId) {
@@ -53,7 +107,7 @@ export async function getUserBookings(userId) {
         .from("bookings")
         .select(`
             *,
-            train:trains(*)
+            train:trains(id, train_number, class_id, train_classes(name_ar, name_en))
         `)
         .eq("user_id", userId)
         .order("booking_date", { ascending: false });
@@ -67,7 +121,7 @@ export async function getBookingById(bookingId, userId) {
         .from("bookings")
         .select(`
             *,
-            train:trains(*)
+            train:trains(id, train_number, class_id, train_classes(name_ar, name_en))
         `)
         .eq("id", bookingId)
         .eq("user_id", userId)
@@ -78,10 +132,10 @@ export async function getBookingById(bookingId, userId) {
 }
 
 export async function cancelBooking(bookingId, userId) {
-    // 1. Get booking details
+    // 1. Get booking
     const { data: booking, error: bookingError } = await supabase
         .from("bookings")
-        .select("*, train:trains(*)")
+        .select("*")
         .eq("id", bookingId)
         .eq("user_id", userId)
         .single();
@@ -90,20 +144,27 @@ export async function cancelBooking(bookingId, userId) {
     if (booking.status === "cancelled") throw new Error("Booking already cancelled");
 
     // 2. Update booking status
-    const { error: updateBookingError } = await supabase
+    const { error: updateError } = await supabase
         .from("bookings")
         .update({ status: "cancelled" })
         .eq("id", bookingId);
 
-    if (updateBookingError) throw updateBookingError;
+    if (updateError) throw updateError;
 
-    // 3. Return seats to inventory
-    const { error: returnSeatsError } = await supabase
-        .from("trains")
-        .update({ available_seats: booking.train.available_seats + booking.passengers })
-        .eq("id", booking.train_id);
+    // 3. Refund balance to user
+    const { data: user } = await supabase
+        .from("users")
+        .select("balance")
+        .eq("id", userId)
+        .single();
 
-    if (returnSeatsError) throw returnSeatsError;
+    if (user) {
+        const refundedBalance = (user.balance || 0) + booking.total_fare;
+        await supabase
+            .from("users")
+            .update({ balance: refundedBalance })
+            .eq("id", userId);
+    }
 
-    return { message: "Booking cancelled successfully" };
+    return { message: "Booking cancelled and balance refunded successfully" };
 }
