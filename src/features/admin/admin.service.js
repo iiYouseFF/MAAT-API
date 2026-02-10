@@ -31,6 +31,15 @@ export async function GetDashboardStats() {
 // ========== USER MANAGEMENT ==========
 
 export async function CreateUser({ national_id, full_name, email, phone, gender, card_uid }) {
+    // Check for duplicate national_id
+    const { data: existing } = await supabase
+        .from("users")
+        .select("id")
+        .eq("national_id", national_id)
+        .maybeSingle();
+
+    if (existing) throw new Error("A user with this national ID already exists");
+
     // Create user
     const { data: user, error } = await supabase.from("users").insert({
         national_id,
