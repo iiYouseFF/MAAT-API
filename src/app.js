@@ -12,6 +12,7 @@ import StationRouter from "./features/station/station.route.js";
 import ScannerRouter from "./features/scanner/scanner.route.js";
 import TripRouter from "./features/trip/trip.route.js";
 import AdminRouter from "./features/admin/admin.route.js";
+import BookingRouter from "./features/booking/booking.route.js";
 
 const app = express();
 
@@ -43,6 +44,7 @@ app.use("/api/v1/stations", StationRouter);
 app.use("/api/v1/scanners", ScannerRouter);
 app.use("/api/v1/trips", TripRouter);
 app.use("/api/v1/admin", AdminRouter);
+app.use("/api/v1/bookings", BookingRouter);
 
 // --- Global Error Handling ---
 app.use((err, req, res, next) => {

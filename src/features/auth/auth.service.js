@@ -7,24 +7,31 @@ const virtualOTPs = new Map();
 
 export async function SignUp(national_id, full_name, phoneNumber, gender, email, cardId) {
     const { data, error } = await supabase.from("users").insert({
-        national_id:national_id,
-        full_name:full_name,
+        national_id: national_id,
+        full_name: full_name,
         phone: phoneNumber,
-        gender:gender,
-        email:email,
+        gender: gender,
+        email: email,
         card_id: cardId
     })
-    .select()
-    .single();
+        .select()
+        .single();
 
-    const { data:card, error:cardError} = await supabase.from("nfc_cards").insert({
-        card_uid: cardId,
-        user_id: data.id,
-        status: "active"
-    })
-    .select()
-    .single();
-    if (error || cardError) throw error || cardError;
+    if (error) throw error;
+
+    let card = null;
+    if (cardId) {
+        const { data: cardData, error: cardError } = await supabase.from("nfc_cards").insert({
+            card_uid: cardId,
+            user_id: data.id,
+            status: "active"
+        })
+            .select()
+            .single();
+
+        if (cardError) throw cardError;
+        card = cardData;
+    }
 
     // Generate JWT Token for automatic login after registration
     const token = jwt.sign(
@@ -36,24 +43,24 @@ export async function SignUp(national_id, full_name, phoneNumber, gender, email,
     return { user: data, card: card, token };
 }
 
-export async function SendOTP(national_id){
-    const { data, error} = await supabase.from("users").select().eq("national_id", national_id).single();
+export async function SendOTP(national_id) {
+    const { data, error } = await supabase.from("users").select().eq("national_id", national_id).single();
     if (error) throw error;
-    else{
+    else {
         const phoneNumber = data.phone;
         const otp = Math.floor(100000 + Math.random() * 900000).toString();
         virtualOTPs.set(national_id, otp);
-        return { status: "pending", to: phoneNumber, message: `The OTP For This Number ${phoneNumber} is ${otp}`, otp: otp};
+        return { status: "pending", to: phoneNumber, message: `The OTP For This Number ${phoneNumber} is ${otp}`, otp: otp };
     }
 }
 
-export async function VerifyOTP(national_id, OTP){
+export async function VerifyOTP(national_id, OTP) {
     const storedOTP = virtualOTPs.get(national_id);
     if (storedOTP === OTP) {
         virtualOTPs.delete(national_id);
         const { data, error } = await supabase.from("users").select().eq("national_id", national_id).single();
         if (error) throw error;
-        
+
         // Generate JWT Token
         const token = jwt.sign(
             { id: data.id, national_id: data.national_id },
@@ -64,4 +71,16 @@ export async function VerifyOTP(national_id, OTP){
         return { status: "approved", user: data, token };
     }
     return { status: "rejected" };
+}
+
+export async function UpdateUser(id, updateData) {
+    const { data, error } = await supabase
+        .from("users")
+        .update(updateData)
+        .eq("id", id)
+        .select()
+        .single();
+
+    if (error) throw error;
+    return data;
 }

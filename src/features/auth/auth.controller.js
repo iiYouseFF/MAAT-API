@@ -4,11 +4,11 @@ export async function register(req, res) {
     try {
         const { national_id, full_name, phoneNumber, gender, email, cardId } = req.body;
         const result = await AuthService.SignUp(national_id, full_name, phoneNumber, gender, email, cardId);
-        res.status(201).json({ 
-            message: "User registered successfully", 
+        res.status(201).json({
+            message: "User registered successfully",
             user: result.user,
             card: result.card,
-            token: result.token 
+            token: result.token
         });
     } catch (error) {
         res.status(500).json({ error: error.message });
@@ -35,10 +35,10 @@ export async function verifyOTP(req, res) {
         const verification = await AuthService.VerifyOTP(national_id, otp);
 
         if (verification.status === "approved") {
-            res.status(200).json({ 
-                message: "Login successful", 
+            res.status(200).json({
+                message: "Login successful",
                 user: verification.user,
-                token: verification.token 
+                token: verification.token
             });
         } else {
             res.status(401).json({ error: "Invalid OTP" });
@@ -51,6 +51,24 @@ export async function verifyOTP(req, res) {
 export async function getMe(req, res) {
     try {
         res.status(200).json({ user: req.user });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+}
+
+export async function updateProfile(req, res) {
+    try {
+        const userId = req.user.id;
+        const updates = req.body;
+
+        // Prevent updating sensitive fields if any (e.g., id, card_id if not allowed)
+        // For now allowing all passed fields, validation should be added if strictness is needed.
+        // removing id from updates just in case
+        delete updates.id;
+        delete updates.national_id; // Usually national ID shouldn't be changed easily
+
+        const updatedUser = await AuthService.UpdateUser(userId, updates);
+        res.status(200).json({ message: "Profile updated successfully", user: updatedUser });
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
