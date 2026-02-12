@@ -46,8 +46,9 @@ export async function RegisterScanner(station_id, type){
     return apiKey;
 }
 
-export async function ScanCard(card_uid, station_id, api_key){
+export async function ScanCard(card_uid, api_key){
     const scanner = await ValidateScanner(api_key);
+    const station_id = scanner.station_id;
     if (!scanner) {
         throw new Error("Invalid or inactive scanner API key");
     }
@@ -55,20 +56,17 @@ export async function ScanCard(card_uid, station_id, api_key){
     // Update heartbeat
     await UpdateScannerHeartbeat(scanner.id);
 
-    // Use current station if none provided
-    const targetStationId = station_id || scanner.station_id;
-
     const card = await nfcService.GetCard(card_uid);
     if (!card) {
         throw new Error("NFC Card not found");
     }
 
     if (scanner.type === "entry") {
-        return await tripService.handleEntry(card.card_uid, targetStationId);
+        return await tripService.handleEntry(card.card_uid, station_id);
     }
 
     if (scanner.type === "exit") {
-        return await tripService.handleExit(card.card_uid, targetStationId);
+        return await tripService.handleExit(card.card_uid, station_id);
     }
 
     if (scanner.type === "register") {

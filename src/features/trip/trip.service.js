@@ -42,18 +42,18 @@ export async function handleExit(card_uid, station_id) {
     if (!card) throw new Error("Card not found");
     const user_id = card.user_id;
 
-    const { data: trip } = await supabase
+    const { data: activeTrip } = await supabase
         .from("trips")
-        .select("*, entry_station:stations!entry_station_id(*)")
+        .select("*")
         .eq("user_id", user_id)
         .eq("status", "active")
         .single();
 
-    if (!trip) throw new Error("No active trip found for this user");
+    if (!activeTrip) throw new Error("No active trip found for this user");
 
     const { data: exitStation } = await supabase.from("stations").select("*").eq("id", station_id).single();
 
-    const fare = calculateFare(trip.entry_station, exitStation);
+    const fare = await calculateFare(activeTrip.entry_station_id, station_id);
 
     const { data: user } = await supabase.from("users").select("balance").eq("id", user_id).single();
     const newBalance = parseFloat(user.balance) - fare;
@@ -65,7 +65,7 @@ export async function handleExit(card_uid, station_id) {
         exit_time: new Date().toISOString(),
         fare,
         status: "completed"
-    }).eq("id", trip.id).select().single();
+    }).eq("id", activeTrip.id).select().single();
 
     if (error) throw error;
 
@@ -73,7 +73,7 @@ export async function handleExit(card_uid, station_id) {
         trip: updatedTrip,
         fare_deducted: fare,
         new_balance: newBalance,
-        trip_duration_minutes: Math.round((new Date() - new Date(trip.entry_time)) / 60000)
+        trip_duration_minutes: Math.round((new Date() - new Date(activeTrip.entry_time)) / 60000)
     };
 }
 
